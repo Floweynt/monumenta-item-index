@@ -1,0 +1,7 @@
+package-lock.json
+node_modules/ 
+data/ 
+data_clean/ 
+blobs/out.json
+blobs/out_old.json
+temp/

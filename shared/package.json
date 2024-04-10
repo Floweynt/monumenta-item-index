@@ -1,0 +1,14 @@
+{
+    "name": "item-index-shared",
+    "version": "1.0.0",
+    "description": "Shared functions and data structures",
+    "scripts": {
+    },
+    "author": "Flowey",
+    "license": "GPL-3.0-only",
+    "devDependencies": {
+        "@types/node": "^20.11.30"
+    },
+    "dependencies": {
+    }
+}

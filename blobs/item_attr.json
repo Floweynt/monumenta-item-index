@@ -1,0 +1,342 @@
+{
+    "minecraft:leather_helmet": {
+        "head": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 1.0
+        }
+    },
+    "minecraft:iron_leggings": {
+        "legs": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 5.0
+        }
+    },
+    "minecraft:chainmail_chestplate": {
+        "chest": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 5.0
+        }
+    },
+    "minecraft:netherite_helmet": {
+        "head": {
+            "attribute.name.generic.armor_toughness": 3.0,
+            "attribute.name.generic.armor": 3.0,
+            "attribute.name.generic.knockback_resistance": 0.10000000149011612
+        }
+    },
+    "minecraft:netherite_pickaxe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 5.0,
+            "attribute.name.generic.attack_speed": -2.799999952316284
+        }
+    },
+    "minecraft:stone_pickaxe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 2.0,
+            "attribute.name.generic.attack_speed": -2.799999952316284
+        }
+    },
+    "minecraft:iron_pickaxe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 3.0,
+            "attribute.name.generic.attack_speed": -2.799999952316284
+        }
+    },
+    "minecraft:diamond_hoe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 0.0,
+            "attribute.name.generic.attack_speed": 0.0
+        }
+    },
+    "minecraft:stone_hoe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 0.0,
+            "attribute.name.generic.attack_speed": -2.0
+        }
+    },
+    "minecraft:iron_sword": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 5.0,
+            "attribute.name.generic.attack_speed": -2.4000000953674316
+        }
+    },
+    "minecraft:golden_axe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 6.0,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:diamond_sword": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 6.0,
+            "attribute.name.generic.attack_speed": -2.4000000953674316
+        }
+    },
+    "minecraft:diamond_leggings": {
+        "legs": {
+            "attribute.name.generic.armor_toughness": 2.0,
+            "attribute.name.generic.armor": 6.0
+        }
+    },
+    "minecraft:iron_hoe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 0.0,
+            "attribute.name.generic.attack_speed": -1.0
+        }
+    },
+    "minecraft:golden_pickaxe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 1.0,
+            "attribute.name.generic.attack_speed": -2.799999952316284
+        }
+    },
+    "minecraft:leather_leggings": {
+        "legs": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 2.0
+        }
+    },
+    "minecraft:stone_shovel": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 2.5,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:golden_hoe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 0.0,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:diamond_helmet": {
+        "head": {
+            "attribute.name.generic.armor_toughness": 2.0,
+            "attribute.name.generic.armor": 3.0
+        }
+    },
+    "minecraft:chainmail_boots": {
+        "feet": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 1.0
+        }
+    },
+    "minecraft:diamond_shovel": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 4.5,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:chainmail_leggings": {
+        "legs": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 4.0
+        }
+    },
+    "minecraft:diamond_chestplate": {
+        "chest": {
+            "attribute.name.generic.armor_toughness": 2.0,
+            "attribute.name.generic.armor": 8.0
+        }
+    },
+    "minecraft:wooden_hoe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 0.0,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:diamond_boots": {
+        "feet": {
+            "attribute.name.generic.armor_toughness": 2.0,
+            "attribute.name.generic.armor": 3.0
+        }
+    },
+    "minecraft:wooden_axe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 6.0,
+            "attribute.name.generic.attack_speed": -3.200000047683716
+        }
+    },
+    "minecraft:wooden_sword": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 3.0,
+            "attribute.name.generic.attack_speed": -2.4000000953674316
+        }
+    },
+    "minecraft:golden_chestplate": {
+        "chest": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 5.0
+        }
+    },
+    "minecraft:netherite_axe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 9.0,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:iron_helmet": {
+        "head": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 2.0
+        }
+    },
+    "minecraft:golden_leggings": {
+        "legs": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 3.0
+        }
+    },
+    "minecraft:netherite_leggings": {
+        "legs": {
+            "attribute.name.generic.armor_toughness": 3.0,
+            "attribute.name.generic.armor": 6.0,
+            "attribute.name.generic.knockback_resistance": 0.10000000149011612
+        }
+    },
+    "minecraft:iron_shovel": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 3.5,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:golden_sword": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 3.0,
+            "attribute.name.generic.attack_speed": -2.4000000953674316
+        }
+    },
+    "minecraft:wooden_shovel": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 1.5,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:netherite_hoe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 0.0,
+            "attribute.name.generic.attack_speed": 0.0
+        }
+    },
+    "minecraft:iron_boots": {
+        "feet": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 2.0
+        }
+    },
+    "minecraft:leather_boots": {
+        "feet": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 1.0
+        }
+    },
+    "minecraft:stone_sword": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 4.0,
+            "attribute.name.generic.attack_speed": -2.4000000953674316
+        }
+    },
+    "minecraft:iron_chestplate": {
+        "chest": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 6.0
+        }
+    },
+    "minecraft:golden_helmet": {
+        "head": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 2.0
+        }
+    },
+    "minecraft:diamond_pickaxe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 4.0,
+            "attribute.name.generic.attack_speed": -2.799999952316284
+        }
+    },
+    "minecraft:iron_axe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 8.0,
+            "attribute.name.generic.attack_speed": -3.0999999046325684
+        }
+    },
+    "minecraft:leather_chestplate": {
+        "chest": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 3.0
+        }
+    },
+    "minecraft:netherite_sword": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 7.0,
+            "attribute.name.generic.attack_speed": -2.4000000953674316
+        }
+    },
+    "minecraft:golden_boots": {
+        "feet": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 1.0
+        }
+    },
+    "minecraft:netherite_boots": {
+        "feet": {
+            "attribute.name.generic.armor_toughness": 3.0,
+            "attribute.name.generic.armor": 3.0,
+            "attribute.name.generic.knockback_resistance": 0.10000000149011612
+        }
+    },
+    "minecraft:trident": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 8.0,
+            "attribute.name.generic.attack_speed": -2.9000000953674316
+        }
+    },
+    "minecraft:chainmail_helmet": {
+        "head": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 2.0
+        }
+    },
+    "minecraft:diamond_axe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 8.0,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:wooden_pickaxe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 1.0,
+            "attribute.name.generic.attack_speed": -2.799999952316284
+        }
+    },
+    "minecraft:turtle_helmet": {
+        "head": {
+            "attribute.name.generic.armor_toughness": 0.0,
+            "attribute.name.generic.armor": 2.0
+        }
+    },
+    "minecraft:netherite_chestplate": {
+        "chest": {
+            "attribute.name.generic.armor_toughness": 3.0,
+            "attribute.name.generic.armor": 8.0,
+            "attribute.name.generic.knockback_resistance": 0.10000000149011612
+        }
+    },
+    "minecraft:golden_shovel": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 1.5,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:netherite_shovel": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 5.5,
+            "attribute.name.generic.attack_speed": -3.0
+        }
+    },
+    "minecraft:stone_axe": {
+        "mainhand": {
+            "attribute.name.generic.attack_damage": 8.0,
+            "attribute.name.generic.attack_speed": -3.200000047683716
+        }
+    }
+}

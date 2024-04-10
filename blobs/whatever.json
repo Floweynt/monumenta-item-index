@@ -1,0 +1,70 @@
+{
+    "throw_rate": {
+        "name": "Throw Rate",
+        "type": "base"
+    },
+    "thorns_damage": {
+        "name": "Thorns Damage",
+        "type": "mod"
+    },
+    "projectile_damage": {
+        "name": "Projectile Damage",
+        "type": "base"
+    },
+    "projectile_speed": {
+        "name": "Projectile Speed",
+        "type": "base"
+    },
+    "agility": {
+        "name": "Agility",
+        "type": "mod",
+        "color": {
+            "positive": "#33CCFF",
+            "negative": "#D02E28"
+        }
+    },
+    "armor": {
+        "name": "Armor",
+        "type": "mod",
+        "color": {
+            "positive": "#33CCFF",
+            "negative": "#D02E28"
+        }
+    },
+    "movement_speed": {
+        "name": "Speed",
+        "type": "mod"
+    },
+    "max_health": {
+        "name": "Max Health",
+        "type": "mod"
+    },
+    "knockback_resistance": {
+        "name": "Knockback Resistance",
+        "type": "mod"
+    },
+    "attack_speed": {
+        "name": "Attack Speed",
+        "type": "base"
+    },
+    "attack_damage": {
+        "name": "Attack Damage",
+        "type": "base"
+    },
+    "magic_damage": {
+        "name": "Magic Damage",
+        "type": "mod"
+    },
+    "spell_power": {
+        "name": "Spell Power",
+        "type": "mod"
+    },
+    "potion_damage": {
+        "name": "Potion Damage",
+        "type": "base"
+    },
+    "potion_radius": {
+        "name": "Potion Radius",
+        "type": "base"
+    }
+}
