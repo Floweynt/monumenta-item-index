@@ -1,8 +1,8 @@
-import {readFileSync} from "fs";
+import {readFileSync, rmSync} from "fs";
 import {mkdir, writeFile} from "fs/promises";
 import {AttributeTag, EnchantmentTag, Item, getTagById, getTagId} from "@shared/item";
 import {walkDirSync} from "./lib/utils";
-import {mappingUnique, unique} from "@shared/utils";
+import {mappingUnique} from "@shared/utils";
 import {inspect} from "util";
 import {createAssertParse} from "typia/lib/json";
 import {createIs} from "typia";
@@ -13,7 +13,7 @@ import {argv, chdir} from "process";
 import {genItem} from "./lib/generate";
 import {rawText} from "@shared/components";
 import {dirname} from "path";
-import {Delta, create} from "jsondiffpatch";
+import {create} from "jsondiffpatch";
 
 const diff = create({});
 
@@ -73,6 +73,11 @@ function getId(item: Item) {
         id += "books/";
     } else if (questTag !== undefined) {
         id += "quests/";
+    } else if (item.rarity === "legacy") {
+        id += `${item.region ?? "misc"}/`;
+        if (item.location) {
+            id += `${item.location}/`;
+        }
     } else {
         id += `${item.region ?? "misc"}/`;
         if (item.location) {
@@ -87,7 +92,13 @@ function getId(item: Item) {
         }
     }
 
-    id += rawText(item.name).replaceAll(/[^a-zA-Z0-9_e]/g, "_").replaceAll(/_+/g, "_").replaceAll(/_+$/g, "").toLowerCase();
+    id += rawText(item.name)
+        .replaceAll("'", "")
+        .replaceAll(/[^a-zA-Z0-9_e]/g, "_")
+        .replaceAll(/_+/g, "_")
+        .replaceAll(/_+$/g, "")
+        .replaceAll(/^_+/g, "")
+        .toLowerCase();
 
     const mwTag = getTagById(item.tags ?? [], "masterwork");
     if (mwTag) {
@@ -215,6 +226,10 @@ function dumpDupe(arr: ExportedItem[]) {
 if (false) {
     console.log(process("items/data/datapacks/base/data/epic/loot_tables/r3/charms/unique/scout/bloodhounds_crest.json"));
 } else {
+    rmSync("data", {recursive: true, force: true, });
+    rmSync("data_clean", {recursive: true, force: true, });
+    rmSync("temp", {recursive: true, force: true, });
+    mkdir("temp");
     const entries = mappingUnique(load(), x => ({...x, oldPath: undefined, }));
     preprocDupe(entries);
     writeFile("blobs/out.json", JSON.stringify(entries));
@@ -230,7 +245,7 @@ if (false) {
 
         const pathClean = `data_clean/monumenta/item_registry/${u.id}.json`;
         await mkdir(dirname(pathClean), {recursive: true, });
-        await writeFile(pathClean, JSON.stringify({...u, rawNBT: undefined, oldPath: undefined, id: undefined, }));
+        await writeFile(pathClean, JSON.stringify({...u, rawNBT: undefined, oldPath: undefined, id: undefined, }, undefined, 4));
     });
     /*
         console.log(
@@ -261,3 +276,4 @@ if (false) {
             )
         );*/
 }
+

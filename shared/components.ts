@@ -144,3 +144,7 @@ export function rawText(data: Component): string {
 
     throw Error("not impl");
 }
+
+export function optimize(component: Component, defaultFormatting: ComponentFormatting) {
+    defaultFormatting = normalizeFormatting(defaultFormatting);
+}

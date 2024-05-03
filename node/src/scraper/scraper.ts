@@ -72,7 +72,7 @@ export class GatheredItemInfo {
                     return false;
                 }
 
-                if(["monumenta:hideinfo", "monumenta:hideenchants", "monumenta:hideattributes", "monumenta:delete_on_shatter"].indexOf(id) !== -1) {
+                if (["monumenta:hideinfo", "monumenta:hideenchants", "monumenta:hideattributes", "monumenta:delete_on_shatter"].indexOf(id) !== -1) {
                     return false;
                 }
 
