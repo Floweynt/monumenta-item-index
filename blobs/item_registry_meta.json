@@ -1,0 +1,584 @@
+{
+    "rarity": {
+        "epic": {
+            "name_format": {
+                "underline": true,
+                "bold": true
+            },
+            "text": {
+                "text": "Epic",
+                "bold": true,
+                "color": "#B314E3"
+            }
+        },
+        "artifact": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Artifact",
+                "color": "#D02E28"
+            }
+        },
+        "rare": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Rare",
+                "color": "#4AC2E5"
+            }
+        },
+        "uncommon": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Uncommon",
+                "color": "#C0C0C0"
+            }
+        },
+        "common": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Common",
+                "color": "#C0C0C0"
+            }
+        },
+        "5": {
+            "name_format": {},
+            "text": {
+                "color": "dark_gray",
+                "text": "Tier V"
+            }
+        },
+        "4": {
+            "name_format": {},
+            "text": {
+                "color": "dark_gray",
+                "text": "Tier IV"
+            }
+        },
+        "3": {
+            "name_format": {},
+            "text": {
+                "color": "dark_gray",
+                "text": "Tier III"
+            }
+        },
+        "2": {
+            "name_format": {},
+            "text": {
+                "color": "dark_gray",
+                "text": "Tier II"
+            }
+        },
+        "1": {
+            "name_format": {},
+            "text": {
+                "color": "dark_gray",
+                "text": "Tier I"
+            }
+        },
+        "0": {
+            "name_format": {},
+            "text": {
+                "color": "dark_gray",
+                "text": "Tier 0"
+            }
+        },
+        "charm": {
+            "name_format": {},
+            "text": {
+                "color": "#FFFA75",
+                "text": "Charm"
+            }
+        },
+        "rarecharm": {
+            "name_format": {},
+            "text": {
+                "color": "dark_gray",
+                "text": "RARE??? CHARM uwu"
+            }
+        },
+        "epiccharm": {
+            "name_format": {},
+            "text": {
+                "color": "dark_gray",
+                "text": "EPIC??? CHARM uwu"
+            }
+        },
+        "fish": {
+            "name_format": {},
+            "text": {
+                "color": "dark_gray",
+                "text": "fish :3"
+            }
+        },
+        "unique": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Unique",
+                "color": "#C8A2C8"
+            }
+        },
+        "trophy": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Trophy",
+                "color": "#CAFFFD"
+            }
+        },
+        "event": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Event",
+                "color": "#7FFFD4"
+            }
+        },
+        "patron": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Patron Made",
+                "color": "#82DB17"
+            }
+        },
+        "key": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Key",
+                "bold": true,
+                "color": "#47B6B5"
+            }
+        },
+        "legacy": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Legacy",
+                "color": "#EEE6D6"
+            }
+        },
+        "currency": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Currency",
+                "color": "#DCAE32"
+            }
+        },
+        "obfuscated": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Stick_:)",
+                "color": "#5D2D87",
+                "obfuscated": true
+            }
+        },
+        "legendary": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Legendary",
+                "bold": true,
+                "color": "#FFD700"
+            }
+        },
+        "event_currency": {
+            "name_format": {
+                "bold": true
+            },
+            "text": {
+                "text": "Event Currency",
+                "color": "#DCAE32"
+            }
+        }
+    },
+    "region_name": {
+        "valley": "King's Valley",
+        "isles": "Celsian Isles",
+        "ring": "Architect's Ring"
+    },
+    "location_text": {
+        "labs": {
+            "color": "#B4ACC3",
+            "text": "Alchemy Labs"
+        },
+        "white": {
+            "color": "white",
+            "text": "Halls of Wind and Blood"
+        },
+        "orange": {
+            "color": "gold",
+            "text": "Fallen Menagerie"
+        },
+        "magenta": {
+            "color": "light_purple",
+            "text": "Plagueroot Temple"
+        },
+        "lightblue": {
+            "color": "#4AC2E5",
+            "text": "Arcane Rivalry"
+        },
+        "yellow": {
+            "color": "yellow",
+            "text": "Vernal Nightmare"
+        },
+        "lime": {
+            "color": "green",
+            "text": "Salazar's Folly"
+        },
+        "pink": {
+            "color": "#FF69B4",
+            "text": "Harmonic Arboretum"
+        },
+        "gray": {
+            "color": "dark_gray",
+            "text": "Valley of Forgotten Pharaohs"
+        },
+        "lightgray": {
+            "color": "gray",
+            "text": "Palace of Mirrors"
+        },
+        "cyan": {
+            "color": "dark_aqua",
+            "text": "The Scourge of Lunacy"
+        },
+        "purple": {
+            "color": "dark_purple",
+            "text": "The Grasp of Avarice"
+        },
+        "teal": {
+            "color": "#47B6B5",
+            "text": "Echoes of Oblivion"
+        },
+        "blue": {
+            "color": "#0C2CA2",
+            "text": "Coven's Gambit"
+        },
+        "brown": {
+            "color": "#703608",
+            "text": "Cradle of the Broken God"
+        },
+        "indigo": {
+            "color": "white",
+            "text": "Indigo Dungeon"
+        },
+        "green": {
+            "color": "white",
+            "text": "Green Dungeon"
+        },
+        "red": {
+            "color": "white",
+            "text": "Red Dungeon"
+        },
+        "black": {
+            "color": "white",
+            "text": "Black Dungeon"
+        },
+        "verdant": {
+            "color": "#158315",
+            "text": "Verdant Remnants"
+        },
+        "sanctum": {
+            "color": "#52AA00",
+            "text": "Forsworn Sanctum"
+        },
+        "mist": {
+            "color": "#674C5B",
+            "text": "The Black Mist"
+        },
+        "remorse": {
+            "color": "#EEE6D6",
+            "text": "Sealed Remorse"
+        },
+        "vigil": {
+            "color": "#72999C",
+            "text": "The Eternal Vigil"
+        },
+        "bluestrike": {
+            "color": "#326DA8",
+            "text": "Masquerader's Ruin"
+        },
+        "science": {
+            "color": "#DCE8E3",
+            "text": "P.O.R.T.A.L."
+        },
+        "reverie": {
+            "color": "#790E47",
+            "text": "Malevolent Reverie"
+        },
+        "forum": {
+            "color": "#808000",
+            "text": "The Fallen Forum"
+        },
+        "silver": {
+            "color": "#C0C0C0",
+            "text": "Silver Knight's Tomb"
+        },
+        "hoard": {
+            "color": "#DAAD3E",
+            "text": "The Hoard"
+        },
+        "ephemeral": {
+            "color": "#8B0000",
+            "text": "Ephemeral Corridors"
+        },
+        "ephemeralenhancements": {
+            "color": "#8B0000",
+            "text": "Ephemeral Enhancements"
+        },
+        "willows": {
+            "color": "#006400",
+            "text": "The Black Willows"
+        },
+        "rush": {
+            "color": "#C21E56",
+            "text": "Rush of Dissonance"
+        },
+        "shifting": {
+            "color": "#7FFFD4",
+            "text": "City of Shifting Waters"
+        },
+        "depths": {
+            "color": "#5D2D87",
+            "text": "Darkest Depths"
+        },
+        "gallerybase": {
+            "color": "#39B14E",
+            "text": "Gallery of Fear"
+        },
+        "gallery1": {
+            "color": "#AB0000",
+            "text": "Sanguine Halls"
+        },
+        "gallery2": {
+            "color": "#324150",
+            "text": "Marina Noir"
+        },
+        "zenith": {
+            "color": "#FF9CF0",
+            "text": "The Celestial Zenith"
+        },
+        "overworld1": {
+            "color": "#DCAE32",
+            "text": "King's Valley Overworld"
+        },
+        "overworld2": {
+            "color": "#32D7DC",
+            "text": "Celsian Isles Overworld"
+        },
+        "forest": {
+            "color": "#4C8F4D",
+            "text": "The Wolfswood"
+        },
+        "keep": {
+            "color": "#C4BBA5",
+            "text": "Pelias' Keep"
+        },
+        "starpoint": {
+            "color": "#342768",
+            "text": "Star Point"
+        },
+        "fishing": {
+            "color": "#A9D1D0",
+            "text": "Architect's Ring Fishing"
+        },
+        "overworld3": {
+            "color": "#C2C4C4",
+            "text": "Architect's Ring Overworld"
+        },
+        "quest": {
+            "color": "#C8A2C8",
+            "text": "Quest Reward"
+        },
+        "kaul": {
+            "color": "dark_green",
+            "text": "Kaul's Judgment"
+        },
+        "azacor": {
+            "color": "#FF6F55",
+            "text": "Azacor's Malice"
+        },
+        "sirius": {
+            "color": "#34CFBC",
+            "text": "The Final Blight"
+        },
+        "godspore": {
+            "color": "#426B29",
+            "text": "The Godspore's Domain"
+        },
+        "frostgiant": {
+            "color": "#87CEFA",
+            "text": "The Waking Giant"
+        },
+        "lich": {
+            "color": "#FFB43E",
+            "text": "Hekawt's Fury"
+        },
+        "casino1": {
+            "color": "#EDC863",
+            "text": "Rock's Little Casino"
+        },
+        "casino2": {
+            "color": "#1773B1",
+            "text": "Monarch's Cozy Casino"
+        },
+        "casino3": {
+            "color": "#C6C2B6",
+            "text": "Sticks and Stones Tavern"
+        },
+        "aprilfools": {
+            "color": "#D22AD2",
+            "text": "April Fools Event"
+        },
+        "easter": {
+            "color": "green",
+            "text": "Easter Event"
+        },
+        "uganda": {
+            "color": "#D02E28",
+            "text": "Uganda 2018"
+        },
+        "halloween": {
+            "color": "gold",
+            "text": "Halloween Event"
+        },
+        "valentine": {
+            "color": "#FF7F7F",
+            "text": "Valentine Event"
+        },
+        "winter": {
+            "color": "#AFC2E3",
+            "text": "Winter Event"
+        },
+        "treasure": {
+            "color": "#C8A2C8",
+            "text": "Treasures of Viridia"
+        },
+        "trickster": {
+            "color": "gold",
+            "text": "Trickster Challenge"
+        },
+        "horseman": {
+            "color": "#8E3418",
+            "text": "The Headless Horseman"
+        },
+        "seasonpass": {
+            "color": "#FFF63C",
+            "text": "Seasonal Pass"
+        },
+        "light": {
+            "color": "#FFFFAA",
+            "text": "Arena of Terth"
+        },
+        "holidayskin": {
+            "color": "#B00C2F",
+            "text": "Holiday Skin"
+        },
+        "sketched": {
+            "color": "#FFF63C",
+            "text": "Sketched Skin"
+        },
+        "challenger": {
+            "color": "#FEDC10",
+            "text": "Challenger Skin"
+        },
+        "divine": {
+            "color": "#C6EFF1",
+            "text": "Divine Skin"
+        },
+        "verdantskin": {
+            "color": "#704C8A",
+            "text": "Threadwarped Skin"
+        },
+        "halloweenskin": {
+            "color": "gold",
+            "text": "Halloween Skin"
+        },
+        "willowskin": {
+            "color": "#006400",
+            "text": "Storied Skin"
+        },
+        "titanicskin": {
+            "color": "#87CEFA",
+            "text": "Titanic Skin"
+        },
+        "eternityskin": {
+            "color": "#FFB43E",
+            "text": "Eternity Skin"
+        },
+        "remorsefulskin": {
+            "color": "#EEE6D6",
+            "text": "Remorseful Skin"
+        },
+        "greedskin": {
+            "color": "#DAAD3E",
+            "text": "Greed Skin"
+        },
+        "mythic": {
+            "color": "#C4971A",
+            "text": "Mythic Reliquary"
+        },
+        "lowtide": {
+            "color": "#196383",
+            "text": "Lowtide Smuggler"
+        },
+        "royal": {
+            "color": "#CAFFFD",
+            "text": "Royal Armory"
+        },
+        "transmogrifier": {
+            "color": "#6F2DA8",
+            "text": "Transmogrifier"
+        },
+        "soul": {
+            "color": "#7FFFD4",
+            "text": "Soulwoven"
+        },
+        "truenorth": {
+            "color": "#FFD700",
+            "text": "True North"
+        },
+        "docks": {
+            "color": "#196383",
+            "text": "Expedition Docks"
+        },
+        "carnival": {
+            "color": "#D02E28",
+            "text": "Floating Carnival"
+        },
+        "intellect": {
+            "color": "#82DB17",
+            "text": "Intellect Crystallizer"
+        },
+        "delves": {
+            "color": "#B47028",
+            "text": "Dungeon Delves"
+        },
+        "blitz": {
+            "color": "#DAAD3E",
+            "text": "Plunderer's Blitz"
+        },
+        "koal": {
+            "text": "Coalrupted Sierhaven"
+        }
+    }
+}

@@ -1,0 +1,2254 @@
+{
+    "class_text": {
+        "alchemist": {
+            "color": "#81D434",
+            "text": "Alchemist"
+        },
+        "cleric": {
+            "color": "##FFC644",
+            "text": "Cleric"
+        },
+        "mage": {
+            "color": "#A129D3",
+            "text": "Mage"
+        },
+        "rogue": {
+            "color": "#36393D",
+            "text": "Rogue"
+        },
+        "generalist": {
+            "color": "#9F8F91",
+            "text": "Generalist"
+        },
+        "scout": {
+            "color": "#59B4EB",
+            "text": "Scout"
+        },
+        "shaman": {
+            "color": "#009900",
+            "text": "Shaman"
+        },
+        "warlock": {
+            "color": "#F0489E",
+            "text": "Warlock"
+        },
+        "warrior": {
+            "color": "#D32818",
+            "text": "Warrior"
+        }
+    },
+    "attributes": {
+        "alchemical_artillery_damage": {
+            "displayName": "Alchemical Artillery Damage",
+            "isNegative": false
+        },
+        "alchemical_artillery_velocity": {
+            "displayName": "Alchemical Artillery Velocity",
+            "isNegative": false
+        },
+        "bezoar_damage_duration": {
+            "displayName": "Bezoar Damage Duration",
+            "isNegative": false
+        },
+        "bezoar_damage_modifier": {
+            "displayName": "Bezoar Damage Modifier",
+            "isNegative": false
+        },
+        "transmutation_ring_damage_amplifier": {
+            "displayName": "Transmutation Ring Damage Amplifier",
+            "isNegative": false
+        },
+        "transmutation_ring_per_death_amplifier": {
+            "displayName": "Transmutation Ring Per Death Amplifier",
+            "isNegative": false
+        },
+        "alchemical_artillery_radius": {
+            "displayName": "Alchemical Artillery Radius",
+            "isNegative": false
+        },
+        "transmutation_ring_radius": {
+            "displayName": "Transmutation Ring Radius",
+            "isNegative": false
+        },
+        "transmutation_ring_duration": {
+            "displayName": "Transmutation Ring Duration",
+            "isNegative": false
+        },
+        "esoteric_enhancements_damage": {
+            "displayName": "Esoteric Enhancements Damage",
+            "isNegative": false
+        },
+        "esoteric_enhancements_radius": {
+            "displayName": "Esoteric Enhancements Radius",
+            "isNegative": false
+        },
+        "esoteric_enhancements_bleed_amplifier": {
+            "displayName": "Esoteric Enhancements Bleed Amplifier",
+            "isNegative": false
+        },
+        "scorched_earth_damage": {
+            "displayName": "Scorched Earth Damage",
+            "isNegative": false
+        },
+        "scorched_earth_radius": {
+            "displayName": "Scorched Earth Radius",
+            "isNegative": false
+        },
+        "scorched_earth_duration": {
+            "displayName": "Scorched Earth Duration",
+            "isNegative": false
+        },
+        "unstable_amalgam_damage": {
+            "displayName": "Unstable Amalgam Damage",
+            "isNegative": false
+        },
+        "unstable_amalgam_radius": {
+            "displayName": "Unstable Amalgam Radius",
+            "isNegative": false
+        },
+        "warding_remedy_radius": {
+            "displayName": "Warding Remedy Radius",
+            "isNegative": false
+        },
+        "warding_remedy_cooldown": {
+            "displayName": "Warding Remedy Cooldown",
+            "isNegative": true
+        },
+        "brutal_alchemy_dot_damage": {
+            "displayName": "Brutal Alchemy DoT Damage",
+            "isNegative": false
+        },
+        "alchemist_potion_damage": {
+            "displayName": "Alchemist Potion Damage",
+            "isNegative": false
+        },
+        "unstable_amalgam_knockback_speed": {
+            "displayName": "Unstable Amalgam Knockback Speed",
+            "isNegative": false
+        },
+        "energizing_elixir_damage_modifier": {
+            "displayName": "Energizing Elixir Damage Modifier",
+            "isNegative": false
+        },
+        "energizing_elixir_speed_modifier": {
+            "displayName": "Energizing Elixir Speed Modifier",
+            "isNegative": false
+        },
+        "energizing_elixir_effect_duration": {
+            "displayName": "Energizing Elixir Effect Duration",
+            "isNegative": false
+        },
+        "taboo_damage_modifier": {
+            "displayName": "Taboo Damage Modifier",
+            "isNegative": false
+        },
+        "taboo_knockback_resistance": {
+            "displayName": "Taboo Knockback Resistance",
+            "isNegative": false
+        },
+        "gruesome_alchemy_damage_multiplier": {
+            "displayName": "Gruesome Alchemy Damage Multiplier",
+            "isNegative": false
+        },
+        "gruesome_alchemy_slowness_amplifier": {
+            "displayName": "Gruesome Alchemy Slowness Amplifier",
+            "isNegative": false
+        },
+        "gruesome_alchemy_vulnerability_amplifier": {
+            "displayName": "Gruesome Alchemy Vulnerability Amplifier",
+            "isNegative": false
+        },
+        "panacea_absorption_health": {
+            "displayName": "Panacea Absorption Health",
+            "isNegative": false
+        },
+        "panacea_damage": {
+            "displayName": "Panacea Damage",
+            "isNegative": false
+        },
+        "panacea_dot_damage": {
+            "displayName": "Panacea DoT Damage",
+            "isNegative": false
+        },
+        "iron_tincture_absorption_health": {
+            "displayName": "Iron Tincture Absorption Health",
+            "isNegative": false
+        },
+        "empowering_odor_speed_modifier": {
+            "displayName": "Empowering Odor Speed Modifier",
+            "isNegative": false
+        },
+        "empowering_odor_damage_bonus": {
+            "displayName": "Empowering Odor Damage Bonus",
+            "isNegative": false
+        },
+        "warding_remedy_pulse_delay": {
+            "displayName": "Warding Remedy Pulse Delay",
+            "isNegative": true
+        },
+        "warding_remedy_max_absorption_health": {
+            "displayName": "Warding Remedy Max Absorption Health",
+            "isNegative": false
+        },
+        "bezoar_generation_requirement": {
+            "displayName": "Bezoar Generation Requirement",
+            "isNegative": true
+        },
+        "bezoar_linger_duration": {
+            "displayName": "Bezoar Linger Duration",
+            "isNegative": false
+        },
+        "transmutation_ring_cooldown": {
+            "displayName": "Transmutation Ring Cooldown",
+            "isNegative": true
+        },
+        "bezoar_debuff_reduction": {
+            "displayName": "Bezoar Debuff Reduction",
+            "isNegative": false
+        },
+        "energizing_elixir_jump_boost_modifier": {
+            "displayName": "Energizing Elixir Jump Boost Modifier",
+            "isNegative": false
+        },
+        "panacea_radius": {
+            "displayName": "Panacea Radius",
+            "isNegative": false
+        },
+        "panacea_slow_duration": {
+            "displayName": "Panacea Slow Duration",
+            "isNegative": false
+        },
+        "unstable_amalgam_cast_range": {
+            "displayName": "Unstable Amalgam Cast Range",
+            "isNegative": false
+        },
+        "bezoar_healing_duration": {
+            "displayName": "Bezoar Healing Duration",
+            "isNegative": false
+        },
+        "taboo_healing_penalty": {
+            "displayName": "Taboo Healing Penalty",
+            "isNegative": true
+        },
+        "taboo_absorption_penalty": {
+            "displayName": "Taboo Absorption Penalty",
+            "isNegative": true
+        },
+        "warding_remedy_healing_bonus": {
+            "displayName": "Warding Remedy Healing Bonus",
+            "isNegative": false
+        },
+        "trasmutation_ring_damage_amplifier": {
+            "displayName": "Trasmutation Ring Damage Amplifier",
+            "isNegative": false
+        },
+        "trasmutation_ring_cooldown": {
+            "displayName": "Trasmutation Ring Cooldown",
+            "isNegative": true
+        },
+        "esoteric_enhancements_cooldown": {
+            "displayName": "Esoteric Enhancements Cooldown",
+            "isNegative": true
+        },
+        "scorched_earth_cooldown": {
+            "displayName": "Scorched Earth Cooldown",
+            "isNegative": true
+        },
+        "panacea_cooldown": {
+            "displayName": "Panacea Cooldown",
+            "isNegative": true
+        },
+        "unstable_amalgam_cooldown": {
+            "displayName": "Unstable Amalgam Cooldown",
+            "isNegative": true
+        },
+        "iron_tincture_cooldown": {
+            "displayName": "Iron Tincture Cooldown",
+            "isNegative": true
+        },
+        "iron_tincture_velocity": {
+            "displayName": "Iron Tincture Velocity",
+            "isNegative": false
+        },
+        "alchemist_potion_charges": {
+            "displayName": "Alchemist Potion Charges",
+            "isNegative": false
+        },
+        "celestial_blessing_radius": {
+            "displayName": "Celestial Blessing Radius",
+            "isNegative": false
+        },
+        "celestial_blessing_duration": {
+            "displayName": "Celestial Blessing Duration",
+            "isNegative": false
+        },
+        "cleansing_rain_damage_reduction": {
+            "displayName": "Cleansing Rain Damage Reduction",
+            "isNegative": false
+        },
+        "cleansing_rain_range": {
+            "displayName": "Cleansing Rain Range",
+            "isNegative": false
+        },
+        "hand_of_light_damage": {
+            "displayName": "Hand of Light Damage",
+            "isNegative": false
+        },
+        "hand_of_light_healing": {
+            "displayName": "Hand of Light Healing",
+            "isNegative": false
+        },
+        "hand_of_light_range": {
+            "displayName": "Hand of Light Range",
+            "isNegative": false
+        },
+        "holy_javelin_damage": {
+            "displayName": "Holy Javelin Damage",
+            "isNegative": false
+        },
+        "holy_javelin_range": {
+            "displayName": "Holy Javelin Range",
+            "isNegative": false
+        },
+        "hallowed_beam_damage": {
+            "displayName": "Hallowed Beam Damage",
+            "isNegative": false
+        },
+        "hallowed_beam_distance": {
+            "displayName": "Hallowed Beam Distance",
+            "isNegative": false
+        },
+        "illuminate_damage": {
+            "displayName": "Illuminate Damage",
+            "isNegative": false
+        },
+        "illuminate_trail_width": {
+            "displayName": "Illuminate Trail Width",
+            "isNegative": false
+        },
+        "illuminate_max_range": {
+            "displayName": "Illuminate Max Range",
+            "isNegative": false
+        },
+        "choir_bells_damage": {
+            "displayName": "Choir Bells Damage",
+            "isNegative": false
+        },
+        "choir_bells_range": {
+            "displayName": "Choir Bells Range",
+            "isNegative": false
+        },
+        "luminous_infusion_damage": {
+            "displayName": "Luminous Infusion Damage",
+            "isNegative": false
+        },
+        "luminous_infusion_radius": {
+            "displayName": "Luminous Infusion Radius",
+            "isNegative": false
+        },
+        "enchanted_prayer_damage": {
+            "displayName": "Enchanted Prayer Damage",
+            "isNegative": false
+        },
+        "enchanted_prayer_healing": {
+            "displayName": "Enchanted Prayer Healing",
+            "isNegative": false
+        },
+        "enchanted_prayer_range": {
+            "displayName": "Enchanted Prayer Range",
+            "isNegative": false
+        },
+        "enchanted_prayer_attack_range": {
+            "displayName": "Enchanted Prayer Attack Range",
+            "isNegative": false
+        },
+        "heavenly_boon_potion_chance": {
+            "displayName": "Heavenly Boon Potion Chance",
+            "isNegative": false
+        },
+        "heavenly_boon_potion_duration": {
+            "displayName": "Heavenly Boon Potion Duration",
+            "isNegative": false
+        },
+        "sacred_provisions_chance": {
+            "displayName": "Sacred Provisions Chance",
+            "isNegative": false
+        },
+        "sacred_provisions_range": {
+            "displayName": "Sacred Provisions Range",
+            "isNegative": false
+        },
+        "sanctified_armor_damage": {
+            "displayName": "Sanctified Armor Damage",
+            "isNegative": false
+        },
+        "hallowed_beam_healing": {
+            "displayName": "Hallowed Beam Healing",
+            "isNegative": false
+        },
+        "divine_justice_damage": {
+            "displayName": "Divine Justice Damage",
+            "isNegative": false
+        },
+        "illuminate_velocity": {
+            "displayName": "Illuminate Velocity",
+            "isNegative": false
+        },
+        "celestial_blessing_damage_modifier": {
+            "displayName": "Celestial Blessing Damage Modifier",
+            "isNegative": false
+        },
+        "cleansing_rain_duration": {
+            "displayName": "Cleansing Rain Duration",
+            "isNegative": false
+        },
+        "choir_bells_cooldown": {
+            "displayName": "Choir Bells Cooldown",
+            "isNegative": true
+        },
+        "thurible_procession_damage_amplifier": {
+            "displayName": "Thurible Procession Damage Amplifier",
+            "isNegative": false
+        },
+        "choir_bells_slowness_amplifier": {
+            "displayName": "Choir Bells Slowness Amplifier",
+            "isNegative": false
+        },
+        "choir_bells_vulnerability_amplifier": {
+            "displayName": "Choir Bells Vulnerability Amplifier",
+            "isNegative": false
+        },
+        "sanctified_armor_slowness_amplifier": {
+            "displayName": "Sanctified Armor Slowness Amplifier",
+            "isNegative": false
+        },
+        "hallowed_beam_stun_duration": {
+            "displayName": "Hallowed Beam Stun Duration",
+            "isNegative": false
+        },
+        "hallowed_beam_cooldown": {
+            "displayName": "Hallowed Beam Cooldown",
+            "isNegative": true
+        },
+        "illuminate_speed_amplifier": {
+            "displayName": "Illuminate Speed Amplifier",
+            "isNegative": false
+        },
+        "illuminate_trail_duration": {
+            "displayName": "Illuminate Trail Duration",
+            "isNegative": false
+        },
+        "divine_justice_self_heal": {
+            "displayName": "Divine Justice Self Heal",
+            "isNegative": false
+        },
+        "divine_justice_ally_heal": {
+            "displayName": "Divine Justice Ally Heal",
+            "isNegative": false
+        },
+        "celestial_blessing_cooldown": {
+            "displayName": "Celestial Blessing Cooldown",
+            "isNegative": true
+        },
+        "celestial_blessing_speed_amplifier": {
+            "displayName": "Celestial Blessing Speed Amplifier",
+            "isNegative": false
+        },
+        "cleansing_rain_cooldown": {
+            "displayName": "Cleansing Rain Cooldown",
+            "isNegative": true
+        },
+        "hand_of_light_cooldown": {
+            "displayName": "Hand of Light Cooldown",
+            "isNegative": true
+        },
+        "luminous_infusion_cooldown": {
+            "displayName": "Luminous Infusion Cooldown",
+            "isNegative": true
+        },
+        "holy_javelin_cooldown": {
+            "displayName": "Holy Javelin Cooldown",
+            "isNegative": true
+        },
+        "enchanted_prayer_cooldown": {
+            "displayName": "Enchanted Prayer Cooldown",
+            "isNegative": true
+        },
+        "arcane_strike_damage": {
+            "displayName": "Arcane Strike Damage",
+            "isNegative": false
+        },
+        "arcane_strike_radius": {
+            "displayName": "Arcane Strike Radius",
+            "isNegative": false
+        },
+        "mana_lance_damage": {
+            "displayName": "Mana Lance Damage",
+            "isNegative": false
+        },
+        "mana_lance_range": {
+            "displayName": "Mana Lance Range",
+            "isNegative": false
+        },
+        "thunder_step_damage": {
+            "displayName": "Thunder Step Damage",
+            "isNegative": false
+        },
+        "thunder_step_distance": {
+            "displayName": "Thunder Step Distance",
+            "isNegative": false
+        },
+        "starfall_damage": {
+            "displayName": "Starfall Damage",
+            "isNegative": false
+        },
+        "starfall_range": {
+            "displayName": "Starfall Range",
+            "isNegative": false
+        },
+        "starfall_fire_duration": {
+            "displayName": "Starfall Fire Duration",
+            "isNegative": false
+        },
+        "frost_nova_damage": {
+            "displayName": "Frost Nova Damage",
+            "isNegative": false
+        },
+        "frost_nova_cooldown": {
+            "displayName": "Frost Nova Cooldown",
+            "isNegative": true
+        },
+        "frost_nova_range": {
+            "displayName": "Frost Nova Range",
+            "isNegative": false
+        },
+        "magma_shield_damage": {
+            "displayName": "Magma Shield Damage",
+            "isNegative": false
+        },
+        "magma_shield_cooldown": {
+            "displayName": "Magma Shield Cooldown",
+            "isNegative": true
+        },
+        "magma_shield_range": {
+            "displayName": "Magma Shield Range",
+            "isNegative": false
+        },
+        "astral_omen_damage": {
+            "displayName": "Astral Omen Damage",
+            "isNegative": false
+        },
+        "astral_omen_damage_modifier": {
+            "displayName": "Astral Omen Damage Modifier",
+            "isNegative": false
+        },
+        "arcane_strike_cooldown": {
+            "displayName": "Arcane Strike Cooldown",
+            "isNegative": true
+        },
+        "blizzard_range": {
+            "displayName": "Blizzard Range",
+            "isNegative": false
+        },
+        "blizzard_cooldown": {
+            "displayName": "Blizzard Cooldown",
+            "isNegative": true
+        },
+        "elemental_arrows_range": {
+            "displayName": "Elemental Arrows Range",
+            "isNegative": false
+        },
+        "cosmic_moonblade_damage": {
+            "displayName": "Cosmic Moonblade Damage",
+            "isNegative": false
+        },
+        "cosmic_moonblade_range": {
+            "displayName": "Cosmic Moonblade Range",
+            "isNegative": false
+        },
+        "elemental_spirits_damage": {
+            "displayName": "Elemental Spirits Damage",
+            "isNegative": false
+        },
+        "elemental_spirits_size": {
+            "displayName": "Elemental Spirits Size",
+            "isNegative": false
+        },
+        "arcane_strike_bonus_damage": {
+            "displayName": "Arcane Strike Bonus Damage",
+            "isNegative": false
+        },
+        "spellshock_spell_amplifier": {
+            "displayName": "Spellshock Spell Amplifier",
+            "isNegative": false
+        },
+        "spellshock_melee_amplifier": {
+            "displayName": "Spellshock Melee Amplifier",
+            "isNegative": false
+        },
+        "spellshock_speed_amplifier": {
+            "displayName": "Spellshock Speed Amplifier",
+            "isNegative": false
+        },
+        "spellshock_slowness_amplifier": {
+            "displayName": "Spellshock Slowness Amplifier",
+            "isNegative": false
+        },
+        "blizzard_damage": {
+            "displayName": "Blizzard Damage",
+            "isNegative": false
+        },
+        "sage's_insight_stack_trigger_threshold": {
+            "displayName": "Sage's Insight Stack Trigger Threshold",
+            "isNegative": true
+        },
+        "thunder_step_radius": {
+            "displayName": "Thunder Step Radius",
+            "isNegative": false
+        },
+        "elemental_arrows_damage": {
+            "displayName": "Elemental Arrows Damage",
+            "isNegative": false
+        },
+        "prismatic_shield_absorption_health": {
+            "displayName": "Prismatic Shield Absorption Health",
+            "isNegative": false
+        },
+        "prismatic_shield_cooldown": {
+            "displayName": "Prismatic Shield Cooldown",
+            "isNegative": true
+        },
+        "prismatic_shield_knockback": {
+            "displayName": "Prismatic Shield Knockback",
+            "isNegative": false
+        },
+        "prismatic_shield_stun_duration": {
+            "displayName": "Prismatic Shield Stun Duration",
+            "isNegative": false
+        },
+        "sage's_insight_decay_duration": {
+            "displayName": "Sage's Insight Decay Duration",
+            "isNegative": false
+        },
+        "elemental_arrows_duration": {
+            "displayName": "Elemental Arrows Duration",
+            "isNegative": false
+        },
+        "thunder_step_cooldown": {
+            "displayName": "Thunder Step Cooldown",
+            "isNegative": true
+        },
+        "blizzard_slowness_amplifier": {
+            "displayName": "Blizzard Slowness Amplifier",
+            "isNegative": false
+        },
+        "frost_nova_slowness_amplifier": {
+            "displayName": "Frost Nova Slowness Amplifier",
+            "isNegative": false
+        },
+        "frost_nova_slowness_duration": {
+            "displayName": "Frost Nova Slowness Duration",
+            "isNegative": false
+        },
+        "magma_shield_fire_duration": {
+            "displayName": "Magma Shield Fire Duration",
+            "isNegative": false
+        },
+        "magma_shield_knockback": {
+            "displayName": "Magma Shield Knockback",
+            "isNegative": false
+        },
+        "mana_lance_cooldown": {
+            "displayName": "Mana Lance Cooldown",
+            "isNegative": true
+        },
+        "starfall_cooldown": {
+            "displayName": "Starfall Cooldown",
+            "isNegative": true
+        },
+        "cosmic_moonblade_cooldown_reduction": {
+            "displayName": "Cosmic Moonblade Cooldown Reduction",
+            "isNegative": false
+        },
+        "cosmic_moonblade_cooldown_cap": {
+            "displayName": "Cosmic Moonblade Cooldown Cap",
+            "isNegative": false
+        },
+        "cosmic_moonblade_cooldown": {
+            "displayName": "Cosmic Moonblade Cooldown",
+            "isNegative": true
+        },
+        "elemental_spirits_cooldown": {
+            "displayName": "Elemental Spirits Cooldown",
+            "isNegative": true
+        },
+        "cloak_and_dagger_damage": {
+            "displayName": "Cloak and Dagger Damage",
+            "isNegative": false
+        },
+        "cloak_and_dagger_max_stacks": {
+            "displayName": "Cloak and Dagger Max Stacks",
+            "isNegative": false
+        },
+        "by_my_blade_damage": {
+            "displayName": "By My Blade Damage",
+            "isNegative": false
+        },
+        "dagger_throw_damage": {
+            "displayName": "Dagger Throw Damage",
+            "isNegative": false
+        },
+        "dagger_throw_cooldown": {
+            "displayName": "Dagger Throw Cooldown",
+            "isNegative": true
+        },
+        "dagger_throw_range": {
+            "displayName": "Dagger Throw Range",
+            "isNegative": false
+        },
+        "bodkin_blitz_damage": {
+            "displayName": "Bodkin Blitz Damage",
+            "isNegative": false
+        },
+        "bodkin_blitz_distance": {
+            "displayName": "Bodkin Blitz Distance",
+            "isNegative": false
+        },
+        "escape_death_jump_boost_amplifier": {
+            "displayName": "Escape Death Jump Boost Amplifier",
+            "isNegative": false
+        },
+        "escape_death_speed_amplifier": {
+            "displayName": "Escape Death Speed Amplifier",
+            "isNegative": false
+        },
+        "blade_dance_damage": {
+            "displayName": "Blade Dance Damage",
+            "isNegative": false
+        },
+        "blade_dance_radius": {
+            "displayName": "Blade Dance Radius",
+            "isNegative": false
+        },
+        "advancing_shadows_damage_multiplier": {
+            "displayName": "Advancing Shadows Damage Multiplier",
+            "isNegative": false
+        },
+        "advancing_shadows_range": {
+            "displayName": "Advancing Shadows Range",
+            "isNegative": false
+        },
+        "advancing_shadows_knockback": {
+            "displayName": "Advancing Shadows Knockback",
+            "isNegative": false
+        },
+        "deadly_ronde_damage": {
+            "displayName": "Deadly Ronde Damage",
+            "isNegative": false
+        },
+        "coup_de_grace_threshold": {
+            "displayName": "Coup de Grace Threshold",
+            "isNegative": false
+        },
+        "skirmisher_damage_multiplier": {
+            "displayName": "Skirmisher Damage Multiplier",
+            "isNegative": false
+        },
+        "skirmisher_damage_radius": {
+            "displayName": "Skirmisher Damage Radius",
+            "isNegative": false
+        },
+        "bodkin_blitz_stealth_duration": {
+            "displayName": "Bodkin Blitz Stealth Duration",
+            "isNegative": false
+        },
+        "escape_death_absorption_health": {
+            "displayName": "Escape Death Absorption Health",
+            "isNegative": false
+        },
+        "escape_death_cooldown": {
+            "displayName": "Escape Death Cooldown",
+            "isNegative": true
+        },
+        "dodging_cooldown": {
+            "displayName": "Dodging Cooldown",
+            "isNegative": true
+        },
+        "dodging_speed_amplifier": {
+            "displayName": "Dodging Speed Amplifier",
+            "isNegative": false
+        },
+        "vicious_combos_cooldown_reduction": {
+            "displayName": "Vicious Combos Cooldown Reduction",
+            "isNegative": false
+        },
+        "wind_walk_cooldown": {
+            "displayName": "Wind Walk Cooldown",
+            "isNegative": true
+        },
+        "smokescreen_cooldown": {
+            "displayName": "Smokescreen Cooldown",
+            "isNegative": true
+        },
+        "dagger_throw_vulnerability_amplifier": {
+            "displayName": "Dagger Throw Vulnerability Amplifier",
+            "isNegative": false
+        },
+        "smokescreen_slowness_amplifier": {
+            "displayName": "Smokescreen Slowness Amplifier",
+            "isNegative": false
+        },
+        "blade_dance_root_duration": {
+            "displayName": "Blade Dance Root Duration",
+            "isNegative": false
+        },
+        "by_my_blade_cooldown": {
+            "displayName": "By My Blade Cooldown",
+            "isNegative": true
+        },
+        "bodkin_blitz_cooldown": {
+            "displayName": "Bodkin Blitz Cooldown",
+            "isNegative": true
+        },
+        "smoke_screen_cooldown": {
+            "displayName": "Smoke Screen Cooldown",
+            "isNegative": true
+        },
+        "blade_dance_cooldown": {
+            "displayName": "Blade Dance Cooldown",
+            "isNegative": true
+        },
+        "advancing_shadows_cooldown": {
+            "displayName": "Advancing Shadows Cooldown",
+            "isNegative": true
+        },
+        "whirling_blade_damage": {
+            "displayName": "Whirling Blade Damage",
+            "isNegative": false
+        },
+        "whirling_blade_radius": {
+            "displayName": "Whirling Blade Radius",
+            "isNegative": false
+        },
+        "eagle_eye_radius": {
+            "displayName": "Eagle Eye Radius",
+            "isNegative": false
+        },
+        "eagle_eye_vulnerability_amplifier": {
+            "displayName": "Eagle Eye Vulnerability Amplifier",
+            "isNegative": false
+        },
+        "wind_bomb_height": {
+            "displayName": "Wind Bomb Height",
+            "isNegative": false
+        },
+        "wind_bomb_radius": {
+            "displayName": "Wind Bomb Radius",
+            "isNegative": false
+        },
+        "predator_strike_damage": {
+            "displayName": "Predator Strike Damage",
+            "isNegative": false
+        },
+        "predator_strike_radius": {
+            "displayName": "Predator Strike Radius",
+            "isNegative": false
+        },
+        "tactical_maneuver_damage": {
+            "displayName": "Tactical Maneuver Damage",
+            "isNegative": false
+        },
+        "tactical_maneuver_radius": {
+            "displayName": "Tactical Maneuver Radius",
+            "isNegative": false
+        },
+        "volley_damage": {
+            "displayName": "Volley Damage",
+            "isNegative": false
+        },
+        "volley_arrows": {
+            "displayName": "Volley Arrows",
+            "isNegative": false
+        },
+        "pinning_shot_max_health_damage": {
+            "displayName": "Pinning Shot Max Health Damage",
+            "isNegative": false
+        },
+        "hunting_companion_damage": {
+            "displayName": "Hunting Companion Damage",
+            "isNegative": false
+        },
+        "sharpshooter_stack_damage": {
+            "displayName": "Sharpshooter Stack Damage",
+            "isNegative": false
+        },
+        "sharpshooter_max_stacks": {
+            "displayName": "Sharpshooter Max Stacks",
+            "isNegative": false
+        },
+        "quickdraw_damage": {
+            "displayName": "Quickdraw Damage",
+            "isNegative": false
+        },
+        "split_arrow_damage": {
+            "displayName": "Split Arrow Damage",
+            "isNegative": false
+        },
+        "tactical_maneuver_velocity": {
+            "displayName": "Tactical Maneuver Velocity",
+            "isNegative": false
+        },
+        "swift_cuts_stack_damage": {
+            "displayName": "Swift Cuts Stack Damage",
+            "isNegative": false
+        },
+        "swiftness_jump_boost_amplifier": {
+            "displayName": "Swiftness Jump Boost Amplifier",
+            "isNegative": false
+        },
+        "wind_bomb_damage": {
+            "displayName": "Wind Bomb Damage",
+            "isNegative": false
+        },
+        "eagle_eye_refresh": {
+            "displayName": "Eagle Eye Refresh",
+            "isNegative": false
+        },
+        "swiftness_speed_amplifier": {
+            "displayName": "Swiftness Speed Amplifier",
+            "isNegative": false
+        },
+        "hunting_companion_speed": {
+            "displayName": "Hunting Companion Speed",
+            "isNegative": false
+        },
+        "pinning_shot_weakness_amplifier": {
+            "displayName": "Pinning Shot Weakness Amplifier",
+            "isNegative": false
+        },
+        "wind_bomb_weaken_amplifier": {
+            "displayName": "Wind Bomb Weaken Amplifier",
+            "isNegative": false
+        },
+        "wind_bomb_duration": {
+            "displayName": "Wind Bomb Duration",
+            "isNegative": false
+        },
+        "hunting_companion_duration": {
+            "displayName": "Hunting Companion Duration",
+            "isNegative": false
+        },
+        "tactical_maneuver_stun_duration": {
+            "displayName": "Tactical Maneuver Stun Duration",
+            "isNegative": false
+        },
+        "sharpshooter_arrow_save_chance": {
+            "displayName": "Sharpshooter Arrow Save Chance",
+            "isNegative": false
+        },
+        "whirling_blade_knockback": {
+            "displayName": "Whirling Blade Knockback",
+            "isNegative": false
+        },
+        "volley_cooldown": {
+            "displayName": "Volley Cooldown",
+            "isNegative": true
+        },
+        "whirling_blade_cooldown": {
+            "displayName": "Whirling Blade Cooldown",
+            "isNegative": true
+        },
+        "wind_bomb_cooldown": {
+            "displayName": "Wind Bomb Cooldown",
+            "isNegative": true
+        },
+        "hunting_companion_cooldown": {
+            "displayName": "Hunting Companion Cooldown",
+            "isNegative": true
+        },
+        "quickdraw_cooldown": {
+            "displayName": "Quickdraw Cooldown",
+            "isNegative": true
+        },
+        "predator_strike_cooldown": {
+            "displayName": "Predator Strike Cooldown",
+            "isNegative": true
+        },
+        "tactical_maneuver_cooldown": {
+            "displayName": "Tactical Maneuver Cooldown",
+            "isNegative": true
+        },
+        "crystalline_combos_range": {
+            "displayName": "Crystalline Combos Range",
+            "isNegative": false
+        },
+        "crystalline_combos_damage": {
+            "displayName": "Crystalline Combos Damage",
+            "isNegative": false
+        },
+        "desecrating_shot_weakness_amplifier": {
+            "displayName": "Desecrating Shot Weakness Amplifier",
+            "isNegative": false
+        },
+        "desecrating_shot_radius": {
+            "displayName": "Desecrating Shot Radius",
+            "isNegative": false
+        },
+        "devastation_damage": {
+            "displayName": "Devastation Damage",
+            "isNegative": false
+        },
+        "devastation_radius": {
+            "displayName": "Devastation Radius",
+            "isNegative": false
+        },
+        "chain_healing_wave_healing": {
+            "displayName": "Chain Healing Wave Healing",
+            "isNegative": false
+        },
+        "chain_healing_wave_bounce_radius": {
+            "displayName": "Chain Healing Wave Bounce Radius",
+            "isNegative": false
+        },
+        "flame_totem_damage": {
+            "displayName": "Flame Totem Damage",
+            "isNegative": false
+        },
+        "flame_totem_explosion_radius": {
+            "displayName": "Flame Totem Explosion Radius",
+            "isNegative": false
+        },
+        "flame_totem_fire_duration": {
+            "displayName": "Flame Totem Fire Duration",
+            "isNegative": false
+        },
+        "totemic_projection_spread": {
+            "displayName": "Totemic Projection Spread",
+            "isNegative": false
+        },
+        "chain_lightning_damage": {
+            "displayName": "Chain Lightning Damage",
+            "isNegative": false
+        },
+        "chain_lightning_bounce_radius": {
+            "displayName": "Chain Lightning Bounce Radius",
+            "isNegative": false
+        },
+        "decayed_totem_slowness_amplifier": {
+            "displayName": "Decayed Totem Slowness Amplifier",
+            "isNegative": false
+        },
+        "decayed_totem_radius": {
+            "displayName": "Decayed Totem Radius",
+            "isNegative": false
+        },
+        "lightning_totem_damage": {
+            "displayName": "Lightning Totem Damage",
+            "isNegative": false
+        },
+        "lightning_totem_radius": {
+            "displayName": "Lightning Totem Radius",
+            "isNegative": false
+        },
+        "earthen_tremor_radius": {
+            "displayName": "Earthen Tremor Radius",
+            "isNegative": false
+        },
+        "earthen_tremor_knockback": {
+            "displayName": "Earthen Tremor Knockback",
+            "isNegative": false
+        },
+        "cleansing_totem_healing": {
+            "displayName": "Cleansing Totem Healing",
+            "isNegative": false
+        },
+        "cleansing_totem_radius": {
+            "displayName": "Cleansing Totem Radius",
+            "isNegative": false
+        },
+        "interconnected_havoc_damage": {
+            "displayName": "Interconnected Havoc Damage",
+            "isNegative": false
+        },
+        "desecrating_shot_damage": {
+            "displayName": "Desecrating Shot Damage",
+            "isNegative": false
+        },
+        "sanctuary_slowness_amplifier": {
+            "displayName": "Sanctuary Slowness Amplifier",
+            "isNegative": false
+        },
+        "sanctuary_weakness_amplifier": {
+            "displayName": "Sanctuary Weakness Amplifier",
+            "isNegative": false
+        },
+        "sanctuary_vulnerability_amplifier": {
+            "displayName": "Sanctuary Vulnerability Amplifier",
+            "isNegative": false
+        },
+        "decayed_totem_damage": {
+            "displayName": "Decayed Totem Damage",
+            "isNegative": false
+        },
+        "earthen_tremor_damage": {
+            "displayName": "Earthen Tremor Damage",
+            "isNegative": false
+        },
+        "totemic_projection_cooldown": {
+            "displayName": "Totemic Projection Cooldown",
+            "isNegative": true
+        },
+        "whirlwind_totem_radius": {
+            "displayName": "Whirlwind Totem Radius",
+            "isNegative": false
+        },
+        "flame_totem_duration": {
+            "displayName": "Flame Totem Duration",
+            "isNegative": false
+        },
+        "lightning_totem_duration": {
+            "displayName": "Lightning Totem Duration",
+            "isNegative": false
+        },
+        "cleansing_totem_duration": {
+            "displayName": "Cleansing Totem Duration",
+            "isNegative": false
+        },
+        "whirlwind_totem_duration": {
+            "displayName": "Whirlwind Totem Duration",
+            "isNegative": false
+        },
+        "decayed_totem_duration": {
+            "displayName": "Decayed Totem Duration",
+            "isNegative": false
+        },
+        "desecrating_shot_cooldown": {
+            "displayName": "Desecrating Shot Cooldown",
+            "isNegative": true
+        },
+        "devastation_cooldown": {
+            "displayName": "Devastation Cooldown",
+            "isNegative": true
+        },
+        "chain_healing_wave_cooldown": {
+            "displayName": "Chain Healing Wave Cooldown",
+            "isNegative": true
+        },
+        "flame_totem_cooldown": {
+            "displayName": "Flame Totem Cooldown",
+            "isNegative": true
+        },
+        "chain_lightning_cooldown": {
+            "displayName": "Chain Lightning Cooldown",
+            "isNegative": true
+        },
+        "decayed_totem_cooldown": {
+            "displayName": "Decayed Totem Cooldown",
+            "isNegative": true
+        },
+        "lightning_totem_cooldown": {
+            "displayName": "Lightning Totem Cooldown",
+            "isNegative": true
+        },
+        "earthen_tremor_cooldown": {
+            "displayName": "Earthen Tremor Cooldown",
+            "isNegative": true
+        },
+        "whirlwind_totem_cooldown": {
+            "displayName": "Whirlwind Totem Cooldown",
+            "isNegative": true
+        },
+        "whirlwind_totem_speed_amplifier": {
+            "displayName": "Whirlwind Totem Speed Amplifier",
+            "isNegative": false
+        },
+        "cleansing_totem_cooldown": {
+            "displayName": "Cleansing Totem Cooldown",
+            "isNegative": true
+        },
+        "haunting_shades_radius": {
+            "displayName": "Haunting Shades Radius",
+            "isNegative": false
+        },
+        "haunting_shades_duration": {
+            "displayName": "Haunting Shades Duration",
+            "isNegative": false
+        },
+        "grasping_claws_damage": {
+            "displayName": "Grasping Claws Damage",
+            "isNegative": false
+        },
+        "grasping_claws_radius": {
+            "displayName": "Grasping Claws Radius",
+            "isNegative": false
+        },
+        "grasping_claws_cooldown": {
+            "displayName": "Grasping Claws Cooldown",
+            "isNegative": true
+        },
+        "voodoo_bonds_transfer_time_limit": {
+            "displayName": "Voodoo Bonds Transfer Time Limit",
+            "isNegative": false
+        },
+        "voodoo_bonds_radius": {
+            "displayName": "Voodoo Bonds Radius",
+            "isNegative": false
+        },
+        "judgement_chain_damage": {
+            "displayName": "Judgement Chain Damage",
+            "isNegative": false
+        },
+        "judgement_chain_range": {
+            "displayName": "Judgement Chain Range",
+            "isNegative": false
+        },
+        "choleric_flames_damage": {
+            "displayName": "Choleric Flames Damage",
+            "isNegative": false
+        },
+        "choleric_flames_range": {
+            "displayName": "Choleric Flames Range",
+            "isNegative": false
+        },
+        "withering_gaze_damage": {
+            "displayName": "Withering Gaze Damage",
+            "isNegative": false
+        },
+        "withering_gaze_range": {
+            "displayName": "Withering Gaze Range",
+            "isNegative": false
+        },
+        "restless_souls_damage": {
+            "displayName": "Restless Souls Damage",
+            "isNegative": false
+        },
+        "restless_souls_radius": {
+            "displayName": "Restless Souls Radius",
+            "isNegative": false
+        },
+        "restless_souls_duration": {
+            "displayName": "Restless Souls Duration",
+            "isNegative": false
+        },
+        "sanguine_harvest_healing": {
+            "displayName": "Sanguine Harvest Healing",
+            "isNegative": false
+        },
+        "sanguine_harvest_radius": {
+            "displayName": "Sanguine Harvest Radius",
+            "isNegative": false
+        },
+        "melancholic_lament_cooldown": {
+            "displayName": "Melancholic Lament Cooldown",
+            "isNegative": true
+        },
+        "melancholic_lament_radius": {
+            "displayName": "Melancholic Lament Radius",
+            "isNegative": false
+        },
+        "melancholic_lament_negative_effect_recovery": {
+            "displayName": "Melancholic Lament Negative Effect Recovery",
+            "isNegative": false
+        },
+        "amplifying_hex_damage": {
+            "displayName": "Amplifying Hex Damage",
+            "isNegative": false
+        },
+        "amplifying_hex_range": {
+            "displayName": "Amplifying Hex Range",
+            "isNegative": false
+        },
+        "cursed_wound_damage_modifier": {
+            "displayName": "Cursed Wound Damage Modifier",
+            "isNegative": false
+        },
+        "cursed_wound_radius": {
+            "displayName": "Cursed Wound Radius",
+            "isNegative": false
+        },
+        "grasping_claws_pull_strength": {
+            "displayName": "Grasping Claws Pull Strength",
+            "isNegative": false
+        },
+        "dark_pact_melee_damage": {
+            "displayName": "Dark Pact Melee Damage",
+            "isNegative": false
+        },
+        "dark_pact_refresh": {
+            "displayName": "Dark Pact Refresh",
+            "isNegative": false
+        },
+        "dark_pact_buff_duration": {
+            "displayName": "Dark Pact Buff Duration",
+            "isNegative": false
+        },
+        "dark_pact_absorption_health_cap": {
+            "displayName": "Dark Pact Absorption Health Cap",
+            "isNegative": false
+        },
+        "voodoo_bonds_damage": {
+            "displayName": "Voodoo Bonds Damage",
+            "isNegative": false
+        },
+        "amplifying_hex_damage_per_effect_potency": {
+            "displayName": "Amplifying Hex Damage per Effect Potency",
+            "isNegative": false
+        },
+        "phlegmatic_resolve_resistance": {
+            "displayName": "Phlegmatic Resolve Resistance",
+            "isNegative": false
+        },
+        "phlegmatic_resolve_knockback_resistance": {
+            "displayName": "Phlegmatic Resolve Knockback Resistance",
+            "isNegative": false
+        },
+        "soul_rend_healing": {
+            "displayName": "Soul Rend Healing",
+            "isNegative": false
+        },
+        "soul_rend_heal_cap": {
+            "displayName": "Soul Rend Heal Cap",
+            "isNegative": false
+        },
+        "judgement_chain_buff_duration": {
+            "displayName": "Judgement Chain Buff Duration",
+            "isNegative": false
+        },
+        "melancholic_lament_weakness_amplifier": {
+            "displayName": "Melancholic Lament Weakness Amplifier",
+            "isNegative": false
+        },
+        "haunting_shades_cooldown": {
+            "displayName": "Haunting Shades Cooldown",
+            "isNegative": true
+        },
+        "grasping_claws_slowness_amplifier": {
+            "displayName": "Grasping Claws Slowness Amplifier",
+            "isNegative": false
+        },
+        "grasping_claws_slowness_duration": {
+            "displayName": "Grasping Claws Slowness Duration",
+            "isNegative": false
+        },
+        "withering_gaze_stun_duration": {
+            "displayName": "Withering Gaze Stun Duration",
+            "isNegative": false
+        },
+        "withering_gaze_cooldown": {
+            "displayName": "Withering Gaze Cooldown",
+            "isNegative": true
+        },
+        "withering_gaze_dot_duration": {
+            "displayName": "Withering Gaze Dot Duration",
+            "isNegative": false
+        },
+        "sanguine_harvest_bleed_amplifier": {
+            "displayName": "Sanguine Harvest Bleed Amplifier",
+            "isNegative": false
+        },
+        "sanguine_harvest_knockback": {
+            "displayName": "Sanguine Harvest Knockback",
+            "isNegative": false
+        },
+        "choleric_flames_duration": {
+            "displayName": "Choleric Flames Duration",
+            "isNegative": false
+        },
+        "choleric_flames_knockback": {
+            "displayName": "Choleric Flames Knockback",
+            "isNegative": false
+        },
+        "phlegmatic_resolve_ally_modifier": {
+            "displayName": "Phlegmatic Resolve Ally Modifier",
+            "isNegative": false
+        },
+        "phlegmatic_resolve_radius": {
+            "displayName": "Phlegmatic Resolve Radius",
+            "isNegative": false
+        },
+        "haunting_shades_healing": {
+            "displayName": "Haunting Shades Healing",
+            "isNegative": false
+        },
+        "restless_souls_vex_cap": {
+            "displayName": "Restless Souls Vex Cap",
+            "isNegative": false
+        },
+        "choleric_flames_cooldown": {
+            "displayName": "Choleric Flames Cooldown",
+            "isNegative": true
+        },
+        "dark_pact_cooldown": {
+            "displayName": "Dark Pact Cooldown",
+            "isNegative": true
+        },
+        "soul_rend_cooldown": {
+            "displayName": "Soul Rend Cooldown",
+            "isNegative": true
+        },
+        "voodoo_bonds_cooldown": {
+            "displayName": "Voodoo Bonds Cooldown",
+            "isNegative": true
+        },
+        "sanguine_harvest_cooldown": {
+            "displayName": "Sanguine Harvest Cooldown",
+            "isNegative": true
+        },
+        "judgement_chain_cooldown": {
+            "displayName": "Judgement Chain Cooldown",
+            "isNegative": true
+        },
+        "amplifying_hex_cooldown": {
+            "displayName": "Amplifying Hex Cooldown",
+            "isNegative": true
+        },
+        "counter_strike_damage": {
+            "displayName": "Counter Strike Damage",
+            "isNegative": false
+        },
+        "counter_strike_damage_reduction": {
+            "displayName": "Counter Strike Damage Reduction",
+            "isNegative": false
+        },
+        "brute_force_damage": {
+            "displayName": "Brute Force Damage",
+            "isNegative": false
+        },
+        "brute_force_radius": {
+            "displayName": "Brute Force Radius",
+            "isNegative": false
+        },
+        "shield_bash_damage": {
+            "displayName": "Shield Bash Damage",
+            "isNegative": false
+        },
+        "shield_bash_range": {
+            "displayName": "Shield Bash Range",
+            "isNegative": false
+        },
+        "shield_bash_radius": {
+            "displayName": "Shield Bash Radius",
+            "isNegative": false
+        },
+        "bodyguard_absorption_health": {
+            "displayName": "Bodyguard Absorption Health",
+            "isNegative": false
+        },
+        "bodyguard_range": {
+            "displayName": "Bodyguard Range",
+            "isNegative": false
+        },
+        "bodyguard_stun_radius": {
+            "displayName": "Bodyguard Stun Radius",
+            "isNegative": false
+        },
+        "glorious_battle_damage": {
+            "displayName": "Glorious Battle Damage",
+            "isNegative": false
+        },
+        "glorious_battle_velocity": {
+            "displayName": "Glorious Battle Velocity",
+            "isNegative": false
+        },
+        "counter_strike_duration": {
+            "displayName": "Counter Strike Duration",
+            "isNegative": false
+        },
+        "meteor_slam_damage": {
+            "displayName": "Meteor Slam Damage",
+            "isNegative": false
+        },
+        "meteor_slam_radius": {
+            "displayName": "Meteor Slam Radius",
+            "isNegative": false
+        },
+        "glorious_battle_radius": {
+            "displayName": "Glorious Battle Radius",
+            "isNegative": false
+        },
+        "rampage_max_stacks": {
+            "displayName": "Rampage Max Stacks",
+            "isNegative": false
+        },
+        "rampage_damage": {
+            "displayName": "Rampage Damage",
+            "isNegative": false
+        },
+        "rampage_damage_threshold": {
+            "displayName": "Rampage Damage Threshold",
+            "isNegative": true
+        },
+        "shield_wall_damage": {
+            "displayName": "Shield Wall Damage",
+            "isNegative": false
+        },
+        "shield_wall_knockback": {
+            "displayName": "Shield Wall Knockback",
+            "isNegative": false
+        },
+        "shield_wall_duration": {
+            "displayName": "Shield Wall Duration",
+            "isNegative": false
+        },
+        "riposte_cooldown": {
+            "displayName": "Riposte Cooldown",
+            "isNegative": true
+        },
+        "riposte_sword_bonus_damage": {
+            "displayName": "Riposte Sword Bonus Damage",
+            "isNegative": false
+        },
+        "rampage_resistance_per_stack": {
+            "displayName": "Rampage Resistance Per Stack",
+            "isNegative": false
+        },
+        "challenge_max_absorption_health": {
+            "displayName": "Challenge Max Absorption Health",
+            "isNegative": false
+        },
+        "challenge_damage": {
+            "displayName": "Challenge Damage",
+            "isNegative": false
+        },
+        "challenge_absorption_health_per_mob": {
+            "displayName": "Challenge Absorption Health Per Mob",
+            "isNegative": false
+        },
+        "defensive_line_resistance": {
+            "displayName": "Defensive Line Resistance",
+            "isNegative": false
+        },
+        "frenzy_attack_speed": {
+            "displayName": "Frenzy Attack Speed",
+            "isNegative": false
+        },
+        "shield_bash_duration": {
+            "displayName": "Shield Bash Duration",
+            "isNegative": false
+        },
+        "defensive_line_duration": {
+            "displayName": "Defensive Line Duration",
+            "isNegative": false
+        },
+        "frenzy_duration": {
+            "displayName": "Frenzy Duration",
+            "isNegative": false
+        },
+        "frenzy_speed": {
+            "displayName": "Frenzy Speed",
+            "isNegative": false
+        },
+        "riposte_stun_duration": {
+            "displayName": "Riposte Stun Duration",
+            "isNegative": false
+        },
+        "rampage_healing": {
+            "displayName": "Rampage Healing",
+            "isNegative": false
+        },
+        "challenge_cooldown": {
+            "displayName": "Challenge Cooldown",
+            "isNegative": true
+        },
+        "shield_bash_cooldown": {
+            "displayName": "Shield Bash Cooldown",
+            "isNegative": true
+        },
+        "defensive_line_cooldown": {
+            "displayName": "Defensive Line Cooldown",
+            "isNegative": true
+        },
+        "bodyguard_cooldown": {
+            "displayName": "Bodyguard Cooldown",
+            "isNegative": true
+        },
+        "meteor_slam_cooldown": {
+            "displayName": "Meteor Slam Cooldown",
+            "isNegative": true
+        },
+        "shield_wall_cooldown": {
+            "displayName": "Shield Wall Cooldown",
+            "isNegative": true
+        },
+        "alchemical_artillery_size": {
+            "displayName": "Alchemical Artillery Size",
+            "isNegative": false
+        },
+        "alchemical_artillery_cooldown": {
+            "displayName": "Alchemical Artillery Cooldown",
+            "isNegative": true
+        },
+        "unstable_amalgam_dropped_potion_damage_modifier": {
+            "displayName": "Unstable Amalgam Dropped Potion Damage Modifier",
+            "isNegative": false
+        },
+        "warding_remedy_absorption_duration": {
+            "displayName": "Warding Remedy Absorption Duration",
+            "isNegative": false
+        },
+        "warding_remedy_pulses": {
+            "displayName": "Warding Remedy Pulses",
+            "isNegative": false
+        },
+        "energizing_elixir_potion_price": {
+            "displayName": "Energizing Elixir Potion Price",
+            "isNegative": false
+        },
+        "energizing_elixir_jump_boost_amplifier": {
+            "displayName": "Energizing Elixir Jump Boost Amplifier",
+            "isNegative": false
+        },
+        "scorched_earth_charge": {
+            "displayName": "Scorched Earth Charge",
+            "isNegative": false
+        },
+        "esoteric_enhancements_creeper": {
+            "displayName": "Esoteric Enhancements Creeper",
+            "isNegative": false
+        },
+        "alchemist_potion_radius": {
+            "displayName": "Alchemist Potion Radius",
+            "isNegative": false
+        },
+        "iron_tincture_duration": {
+            "displayName": "Iron Tincture Duration",
+            "isNegative": false
+        },
+        "panacea_movement_duration": {
+            "displayName": "Panacea Movement Duration",
+            "isNegative": false
+        },
+        "panacea_movement_speed": {
+            "displayName": "Panacea Movement Speed",
+            "isNegative": false
+        },
+        "taboo_potion_recharge_rate": {
+            "displayName": "Taboo Potion Recharge Rate",
+            "isNegative": false
+        },
+        "sapper_heal": {
+            "displayName": "Sapper Heal",
+            "isNegative": false
+        },
+        "sniper_damage": {
+            "displayName": "Sniper Damage",
+            "isNegative": false
+        },
+        "hex_eater_damage": {
+            "displayName": "Hex Eater Damage",
+            "isNegative": false
+        },
+        "inferno_damage": {
+            "displayName": "Inferno Damage",
+            "isNegative": false
+        },
+        "jungle's_nourishment_resistance": {
+            "displayName": "Jungle's Nourishment Resistance",
+            "isNegative": false
+        },
+        "jungle's_nourishment_duration": {
+            "displayName": "Jungle's Nourishment Duration",
+            "isNegative": false
+        },
+        "jungle's_nourishment_health": {
+            "displayName": "Jungle's Nourishment Health",
+            "isNegative": false
+        },
+        "life_drain_heal": {
+            "displayName": "Life Drain Heal",
+            "isNegative": false
+        },
+        "decay_damage": {
+            "displayName": "Decay Damage",
+            "isNegative": false
+        },
+        "jungle's_nourishment_cooldown": {
+            "displayName": "Jungle's Nourishment Cooldown",
+            "isNegative": true
+        },
+        "rage_of_the_keter_cooldown": {
+            "displayName": "Rage of the Keter Cooldown",
+            "isNegative": true
+        },
+        "quake_radius": {
+            "displayName": "Quake Radius",
+            "isNegative": false
+        },
+        "eruption_radius": {
+            "displayName": "Eruption Radius",
+            "isNegative": false
+        },
+        "regeneration_healing": {
+            "displayName": "Regeneration Healing",
+            "isNegative": false
+        },
+        "first_strike_damage": {
+            "displayName": "First Strike Damage",
+            "isNegative": false
+        },
+        "adrenaline_speed": {
+            "displayName": "Adrenaline Speed",
+            "isNegative": false
+        },
+        "regicide_damage": {
+            "displayName": "Regicide Damage",
+            "isNegative": false
+        },
+        "rage_of_the_keter_damage": {
+            "displayName": "Rage of the Keter Damage",
+            "isNegative": false
+        },
+        "rage_of_the_keter_speed": {
+            "displayName": "Rage of the Keter Speed",
+            "isNegative": false
+        },
+        "smite_damage": {
+            "displayName": "Smite Damage",
+            "isNegative": false
+        },
+        "slayer_damage": {
+            "displayName": "Slayer Damage",
+            "isNegative": false
+        },
+        "duelist_damage": {
+            "displayName": "Duelist Damage",
+            "isNegative": false
+        },
+        "rage_of_the_keter_duration": {
+            "displayName": "Rage of the Keter Duration",
+            "isNegative": false
+        },
+        "recoil_velocity": {
+            "displayName": "Recoil Velocity",
+            "isNegative": false
+        },
+        "thunder_aspect_stun_chance": {
+            "displayName": "Thunder Aspect Stun Chance",
+            "isNegative": false
+        },
+        "quake_damage": {
+            "displayName": "Quake Damage",
+            "isNegative": false
+        },
+        "decay_duration": {
+            "displayName": "Decay Duration",
+            "isNegative": false
+        },
+        "thurible_procession_speed_amplifier": {
+            "displayName": "Thurible Procession Speed Amplifier",
+            "isNegative": false
+        },
+        "thurible_procession_attack_speed_amplifier": {
+            "displayName": "Thurible Procession Attack Speed Amplifier",
+            "isNegative": false
+        },
+        "heavenly_boon_radius": {
+            "displayName": "Heavenly Boon Radius",
+            "isNegative": false
+        },
+        "holy_javelin_size": {
+            "displayName": "Holy Javelin Size",
+            "isNegative": false
+        },
+        "hallowed_beam_charge": {
+            "displayName": "Hallowed Beam Charge",
+            "isNegative": false
+        },
+        "luminous_infusion_infused_hits": {
+            "displayName": "Luminous Infusion Infused Hits",
+            "isNegative": false
+        },
+        "rejuvenation_health_threshold": {
+            "displayName": "Rejuvenation Health Threshold",
+            "isNegative": false
+        },
+        "hallowed_beam_resistance": {
+            "displayName": "Hallowed Beam Resistance",
+            "isNegative": false
+        },
+        "hallowed_beam_resistance_duration": {
+            "displayName": "Hallowed Beam Resistance Duration",
+            "isNegative": false
+        },
+        "illuminate_strength_amplifier": {
+            "displayName": "Illuminate Strength Amplifier",
+            "isNegative": false
+        },
+        "illuminate_enhancement_radius": {
+            "displayName": "Illuminate Enhancement Radius",
+            "isNegative": false
+        },
+        "crusade_enhancement_damage_amplifier": {
+            "displayName": "Crusade Enhancement Damage Amplifier",
+            "isNegative": false
+        },
+        "astral_omen_range": {
+            "displayName": "Astral Omen Range",
+            "isNegative": false
+        },
+        "astral_omen_pull_speed": {
+            "displayName": "Astral Omen Pull Speed",
+            "isNegative": false
+        },
+        "starfall_radius": {
+            "displayName": "Starfall Radius",
+            "isNegative": false
+        },
+        "sage's_insight_ability_count": {
+            "displayName": "Sage's Insight Ability Count",
+            "isNegative": false
+        },
+        "magma_shield_cone": {
+            "displayName": "Magma Shield Cone",
+            "isNegative": false
+        },
+        "cosmic_moonblade_slashes": {
+            "displayName": "Cosmic Moonblade Slashes",
+            "isNegative": false
+        },
+        "eruption_damage": {
+            "displayName": "Eruption Damage",
+            "isNegative": false
+        },
+        "prismatic_shield_absorption_duration": {
+            "displayName": "Prismatic Shield Absorption Duration",
+            "isNegative": false
+        },
+        "mana_lance_charge": {
+            "displayName": "Mana Lance Charge",
+            "isNegative": false
+        },
+        "prismatic_shield_enhancement_duration": {
+            "displayName": "Prismatic Shield Enhancement Duration",
+            "isNegative": false
+        },
+        "prismatic_shield_enhancement_damage": {
+            "displayName": "Prismatic Shield Enhancement Damage",
+            "isNegative": false
+        },
+        "prismatic_shield_enhancement_healing": {
+            "displayName": "Prismatic Shield Enhancement Healing",
+            "isNegative": false
+        },
+        "frost_nova_frozen_duration": {
+            "displayName": "Frost Nova Frozen Duration",
+            "isNegative": false
+        },
+        "blizzard_duration": {
+            "displayName": "Blizzard Duration",
+            "isNegative": false
+        },
+        "deadly_ronde_angle": {
+            "displayName": "Deadly Ronde Angle",
+            "isNegative": false
+        },
+        "wind_walk_cooldown_reduction": {
+            "displayName": "Wind Walk Cooldown Reduction",
+            "isNegative": false
+        },
+        "smokescreen_weakness_amplifier": {
+            "displayName": "Smokescreen Weakness Amplifier",
+            "isNegative": false
+        },
+        "smokescreen_range": {
+            "displayName": "Smokescreen Range",
+            "isNegative": false
+        },
+        "cloak_and_dagger_stacks_per_kill": {
+            "displayName": "Cloak and Dagger Stacks Per Kill",
+            "isNegative": false
+        },
+        "cloak_and_dagger_stealth_duration": {
+            "displayName": "Cloak and Dagger Stealth Duration",
+            "isNegative": false
+        },
+        "blade_dance_resistance_duration": {
+            "displayName": "Blade Dance Resistance Duration",
+            "isNegative": false
+        },
+        "vicious_combos_radius": {
+            "displayName": "Vicious Combos Radius",
+            "isNegative": false
+        },
+        "vicious_combos_vulnerability_amplifier": {
+            "displayName": "Vicious Combos Vulnerability Amplifier",
+            "isNegative": false
+        },
+        "vicious_combos_enhancement_damage_amplifier": {
+            "displayName": "Vicious Combos Enhancement Damage Amplifier",
+            "isNegative": false
+        },
+        "wind_walk_charge": {
+            "displayName": "Wind Walk Charge",
+            "isNegative": false
+        },
+        "bodkin_blitz_charge": {
+            "displayName": "Bodkin Blitz Charge",
+            "isNegative": false
+        },
+        "coup_de_grace_elite_threshold": {
+            "displayName": "Coup de Grace Elite Threshold",
+            "isNegative": false
+        },
+        "by_my_blade_haste_duration": {
+            "displayName": "By My Blade Haste Duration",
+            "isNegative": false
+        },
+        "dagger_throw_daggers": {
+            "displayName": "Dagger Throw Daggers",
+            "isNegative": false
+        },
+        "whirling_blade_charges": {
+            "displayName": "Whirling Blade Charges",
+            "isNegative": false
+        },
+        "predator_strike_enemies_pierced": {
+            "displayName": "Predator Strike Enemies Pierced",
+            "isNegative": false
+        },
+        "swiftness_dodge_chance": {
+            "displayName": "Swiftness Dodge Chance",
+            "isNegative": false
+        },
+        "hunting_companion_foxes": {
+            "displayName": "Hunting Companion Foxes",
+            "isNegative": false
+        },
+        "split_arrow_bounces": {
+            "displayName": "Split Arrow Bounces",
+            "isNegative": false
+        },
+        "split_arrow_range": {
+            "displayName": "Split Arrow Range",
+            "isNegative": false
+        },
+        "hunting_companion_stun_duration": {
+            "displayName": "Hunting Companion Stun Duration",
+            "isNegative": false
+        },
+        "hunting_companion_bleed_duration": {
+            "displayName": "Hunting Companion Bleed Duration",
+            "isNegative": false
+        },
+        "hunting_companion_healing": {
+            "displayName": "Hunting Companion Healing",
+            "isNegative": false
+        },
+        "wind_bomb_vortex_duration": {
+            "displayName": "Wind Bomb Vortex Duration",
+            "isNegative": false
+        },
+        "wind_bomb_vortex_pull": {
+            "displayName": "Wind Bomb Vortex Pull",
+            "isNegative": false
+        },
+        "wind_bomb_vortex_radius": {
+            "displayName": "Wind Bomb Vortex Radius",
+            "isNegative": false
+        },
+        "swift_cuts_effect_duration": {
+            "displayName": "Swift Cuts Effect Duration",
+            "isNegative": false
+        },
+        "quickdraw_piercing": {
+            "displayName": "Quickdraw Piercing",
+            "isNegative": false
+        },
+        "agility_haste_amplifier": {
+            "displayName": "Agility Haste Amplifier",
+            "isNegative": false
+        },
+        "volley_piercing": {
+            "displayName": "Volley Piercing",
+            "isNegative": false
+        },
+        "hunting_companion_eagles": {
+            "displayName": "Hunting Companion Eagles",
+            "isNegative": false
+        },
+        "tactical_maneuver_charge": {
+            "displayName": "Tactical Maneuver Charge",
+            "isNegative": false
+        },
+        "chain_lightning_targets": {
+            "displayName": "Chain Lightning Targets",
+            "isNegative": false
+        },
+        "decayed_totem_targets": {
+            "displayName": "Decayed Totem Targets",
+            "isNegative": false
+        },
+        "crystalline_combos_stack_threshold": {
+            "displayName": "Crystalline Combos Stack Threshold",
+            "isNegative": true
+        },
+        "crystalline_combos_shot_count": {
+            "displayName": "Crystalline Combos Shot Count",
+            "isNegative": false
+        },
+        "lightning_totem_lightning_storm_duration": {
+            "displayName": "Lightning Totem Lightning Storm Duration",
+            "isNegative": false
+        },
+        "interconnected_havoc_stun_duration": {
+            "displayName": "Interconnected Havoc Stun Duration",
+            "isNegative": false
+        },
+        "crystalline_combos_shot_delay": {
+            "displayName": "Crystalline Combos Shot Delay",
+            "isNegative": true
+        },
+        "interconnected_havoc_range": {
+            "displayName": "Interconnected Havoc Range",
+            "isNegative": false
+        },
+        "chain_lightning_knockback": {
+            "displayName": "Chain Lightning Knockback",
+            "isNegative": false
+        },
+        "chain_lightning_charges": {
+            "displayName": "Chain Lightning Charges",
+            "isNegative": false
+        },
+        "totemic_projection_slowness_amplifier": {
+            "displayName": "Totemic Projection Slowness Amplifier",
+            "isNegative": false
+        },
+        "totemic_projection_enhancement_damage": {
+            "displayName": "Totemic Projection Enhancement Damage",
+            "isNegative": false
+        },
+        "totemic_projection_enhancement_damage_duration": {
+            "displayName": "Totemic Projection Enhancement Damage Duration",
+            "isNegative": false
+        },
+        "lightning_totem_pulse_delay": {
+            "displayName": "Lightning Totem Pulse Delay",
+            "isNegative": true
+        },
+        "melancholic_lament_enhancement_damage_modifier": {
+            "displayName": "Melancholic Lament Enhancement Damage Modifier",
+            "isNegative": false
+        },
+        "melancholic_lament_enhancement_duration": {
+            "displayName": "Melancholic Lament Enhancement Duration",
+            "isNegative": false
+        },
+        "soul_rend_ally_heal": {
+            "displayName": "Soul Rend Ally Heal",
+            "isNegative": false
+        },
+        "soul_rend_radius": {
+            "displayName": "Soul Rend Radius",
+            "isNegative": false
+        },
+        "voodoo_bonds_received_damage": {
+            "displayName": "Voodoo Bonds Received Damage",
+            "isNegative": true
+        },
+        "restless_souls_debuff_radius": {
+            "displayName": "Restless Souls Debuff Radius",
+            "isNegative": false
+        },
+        "restless_souls_debuff_duration": {
+            "displayName": "Restless Souls Debuff Duration",
+            "isNegative": false
+        },
+        "voodoo_bonds_transfer_damage": {
+            "displayName": "Voodoo Bonds Transfer Damage",
+            "isNegative": false
+        },
+        "dark_pact_absorption_health_per_kill": {
+            "displayName": "Dark Pact Absorption Health Per Kill",
+            "isNegative": false
+        },
+        "grasping_claws_projectile_speed": {
+            "displayName": "Grasping Claws Projectile Speed",
+            "isNegative": false
+        },
+        "haunting_shades_vulnerability_modifier": {
+            "displayName": "Haunting Shades Vulnerability Modifier",
+            "isNegative": false
+        },
+        "haunting_shades_damage_modifier": {
+            "displayName": "Haunting Shades Damage Modifier",
+            "isNegative": false
+        },
+        "amplifying_hex_cone": {
+            "displayName": "Amplifying Hex Cone",
+            "isNegative": false
+        },
+        "amplifying_hex_enhancement_health_threshold": {
+            "displayName": "Amplifying Hex Enhancement Health Threshold",
+            "isNegative": true
+        },
+        "amplifying_hex_enhancement_damage_bonus": {
+            "displayName": "Amplifying Hex Enhancement Damage Bonus",
+            "isNegative": false
+        },
+        "choleric_flames_enhancement_radius": {
+            "displayName": "Choleric Flames Enhancement Radius",
+            "isNegative": false
+        },
+        "culling_resistance_amplifier": {
+            "displayName": "Culling Resistance Amplifier",
+            "isNegative": false
+        },
+        "culling_duration": {
+            "displayName": "Culling Duration",
+            "isNegative": false
+        },
+        "shield_wall_angle": {
+            "displayName": "Shield Wall Angle",
+            "isNegative": false
+        },
+        "riposte_damage": {
+            "displayName": "Riposte Damage",
+            "isNegative": false
+        },
+        "riposte_root_duration": {
+            "displayName": "Riposte Root Duration",
+            "isNegative": false
+        },
+        "glorious_battle_charges": {
+            "displayName": "Glorious Battle Charges",
+            "isNegative": false
+        },
+        "shield_bash_parry_duration": {
+            "displayName": "Shield Bash Parry Duration",
+            "isNegative": false
+        },
+        "shield_bash_cooldown_reduction": {
+            "displayName": "Shield Bash Cooldown Reduction",
+            "isNegative": false
+        },
+        "riposte_sword_bonus_damage_duration": {
+            "displayName": "Riposte Sword Bonus Damage Duration",
+            "isNegative": false
+        },
+        "toughness_health": {
+            "displayName": "Toughness Health",
+            "isNegative": false
+        },
+        "toughness_healing_increase": {
+            "displayName": "Toughness Healing Increase",
+            "isNegative": false
+        },
+        "meteor_slam_fall_requirement": {
+            "displayName": "Meteor Slam Fall Requirement",
+            "isNegative": true
+        },
+        "frenzy_bonus_damage": {
+            "displayName": "Frenzy Bonus Damage",
+            "isNegative": false
+        },
+        "brute_force_waves": {
+            "displayName": "Brute Force Waves",
+            "isNegative": false
+        },
+        "brute_force_wave_delay": {
+            "displayName": "Brute Force Wave Delay",
+            "isNegative": true
+        },
+        "meteor_slam_reduced_threshold": {
+            "displayName": "Meteor Slam Reduced Threshold",
+            "isNegative": false
+        },
+        "meteor_slam_jump_boost": {
+            "displayName": "Meteor Slam Jump Boost",
+            "isNegative": false
+        },
+        "meteor_slam_duration": {
+            "displayName": "Meteor Slam Duration",
+            "isNegative": false
+        },
+        "challenge_max_mobs": {
+            "displayName": "Challenge Max Mobs",
+            "isNegative": false
+        },
+        "challenge_cooldown_reduction_per_mob": {
+            "displayName": "Challenge Cooldown Reduction Per Mob",
+            "isNegative": false
+        },
+        "challenge_speed_per_mob": {
+            "displayName": "Challenge Speed Per Mob",
+            "isNegative": false
+        },
+        "defensive_line_range": {
+            "displayName": "Defensive Line Range",
+            "isNegative": false
+        },
+        "challenge_range": {
+            "displayName": "Challenge Range",
+            "isNegative": false
+        },
+        "defensive_line_damage_negation": {
+            "displayName": "Defensive Line Damage Negation",
+            "isNegative": false
+        },
+        "defensive_line_knockback": {
+            "displayName": "Defensive Line Knockback",
+            "isNegative": false
+        },
+        "shield_wall_radius": {
+            "displayName": "Shield Wall Radius",
+            "isNegative": false
+        },
+        "reverb_damage": {
+            "displayName": "Reverb Damage",
+            "isNegative": false
+        },
+        "grasping_claws_pull_damage": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "voodoo_bonds_curse_duration": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "judgement_chain_debuff_duration": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "grasping_claws_pull_radius": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "voodoo_bonds_pin_range": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "judgement_chain_extra_target_radius": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "judgement_chain_slowness_amplifier": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "melancholic_lament_silence_radius": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "voodoo_bonds_protection_duration": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "voodoo_bonds_curse_radius": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "grasping_claws_cleave_damage": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "judgement_chain_weakness_amplifier": {
+            "displayName": ":3",
+            "isNegative": false
+        },
+        "voodoo_bonds_curse_death_damage": {
+            "displayName": ":3",
+            "isNegative": false
+        }
+    }
+}

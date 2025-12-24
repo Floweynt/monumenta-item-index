@@ -1,0 +1,23 @@
+{
+    "name": "item-index",
+    "version": "1.0.0",
+    "description": "Monumenta Item Indexer Tooling",
+    "scripts": {
+        "convert": "npm --prefix node run convert ..",
+        "lint": "npx eslint --fix node/src/ shared/ client/src/",
+        "dev": "npm run dev-client & npm run dev-server",
+        "dev-client": "npm --prefix client run dev-run",
+        "dev-server": "npm --prefix node run dev-server ../blobs/out.json"
+    },
+    "author": "Flowey",
+    "license": "GPL-3.0-only",
+    "devDependencies": {
+        "@stylistic/eslint-plugin-js": "^1.7.0",
+        "@typescript-eslint/eslint-plugin": "^7.4.0",
+        "@typescript-eslint/parser": "^7.4.0",
+        "eslint": "^8.57.0",
+        "typescript": "^5.4.3"
+    },
+    "dependencies": {
+    }
+}

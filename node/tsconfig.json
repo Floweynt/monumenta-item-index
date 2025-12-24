@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "tsBuildInfoFile": "./.tsc-build/",
+        "target": "es2022",
+        "module": "commonjs",
+        "resolveJsonModule": true,
+        "outDir": "./build",
+        "inlineSources": true,
+        "inlineSourceMap": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "removeComments": true,
+        "plugins": [
+            {
+                "name": "typescript-eslint-language-service"
+            },
+            {
+                "transform": "typia/lib/transform"
+            }
+        ],
+        "rootDirs": [
+            "./src",
+            "../shared/",
+            "../blobs/"
+        ],
+        "paths": {
+            "@shared/*": [
+                "../shared/*"
+            ],
+            "@blobs/*": [
+                "../blobs/*"
+            ]
+        }
+    },
+    "ts-node": {
+        "require": [
+            "tsconfig-paths/register"
+        ]
+    },
+    "include": [
+        "./src",
+        "../share/",
+        "../blobs/"
+    ]
+}

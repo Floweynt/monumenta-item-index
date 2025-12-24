@@ -1,0 +1,709 @@
+{
+    "minecraft:chicken": {
+        "minecraft:generic.max_health": 4.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:creeper": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:ravager": {
+        "minecraft:generic.attack_damage": 12.0,
+        "minecraft:generic.max_health": 100.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.75,
+        "minecraft:generic.attack_knockback": 1.5,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 32.0
+    },
+    "minecraft:blaze": {
+        "minecraft:generic.attack_damage": 6.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.23,
+        "minecraft:generic.follow_range": 48.0
+    },
+    "minecraft:rabbit": {
+        "minecraft:generic.max_health": 3.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:snow_golem": {
+        "minecraft:generic.max_health": 4.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.2,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:ender_dragon": {
+        "minecraft:generic.max_health": 200.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:spider": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 16.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:wither_skeleton": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:bee": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.flying_speed": 0.6,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 48.0
+    },
+    "minecraft:polar_bear": {
+        "minecraft:generic.attack_damage": 6.0,
+        "minecraft:generic.max_health": 30.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 20.0
+    },
+    "minecraft:strider": {
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.175,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:cave_spider": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 16.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:endermite": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 8.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:magma_cube": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.2,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:panda": {
+        "minecraft:generic.attack_damage": 6.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.15,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:goat": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.2,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:skeleton": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:drowned": {
+        "minecraft:generic.attack_damage": 3.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 2.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:zombie.spawn_reinforcements": 0.0,
+        "minecraft:generic.movement_speed": 0.23,
+        "minecraft:generic.follow_range": 35.0
+    },
+    "minecraft:ghast": {
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 100.0
+    },
+    "minecraft:stray": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:illusioner": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 32.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.5,
+        "minecraft:generic.follow_range": 18.0
+    },
+    "minecraft:warden": {
+        "minecraft:generic.attack_damage": 30.0,
+        "minecraft:generic.max_health": 500.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 1.0,
+        "minecraft:generic.attack_knockback": 1.5,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:bat": {
+        "minecraft:generic.max_health": 6.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:skeleton_horse": {
+        "minecraft:generic.max_health": 15.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:horse.jump_strength": 0.7,
+        "minecraft:generic.movement_speed": 0.2,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:pig": {
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:elder_guardian": {
+        "minecraft:generic.attack_damage": 8.0,
+        "minecraft:generic.max_health": 80.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:piglin": {
+        "minecraft:generic.attack_damage": 5.0,
+        "minecraft:generic.max_health": 16.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.35,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:pillager": {
+        "minecraft:generic.attack_damage": 5.0,
+        "minecraft:generic.max_health": 24.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.35,
+        "minecraft:generic.follow_range": 32.0
+    },
+    "minecraft:pufferfish": {
+        "minecraft:generic.max_health": 3.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:dolphin": {
+        "minecraft:generic.attack_damage": 3.0,
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 1.2,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:llama": {
+        "minecraft:generic.max_health": 53.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:horse.jump_strength": 0.5,
+        "minecraft:generic.movement_speed": 0.175,
+        "minecraft:generic.follow_range": 40.0
+    },
+    "minecraft:turtle": {
+        "minecraft:generic.max_health": 30.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:enderman": {
+        "minecraft:generic.attack_damage": 7.0,
+        "minecraft:generic.max_health": 40.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 64.0
+    },
+    "minecraft:trader_llama": {
+        "minecraft:generic.max_health": 53.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:horse.jump_strength": 0.5,
+        "minecraft:generic.movement_speed": 0.175,
+        "minecraft:generic.follow_range": 40.0
+    },
+    "minecraft:cod": {
+        "minecraft:generic.max_health": 3.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:axolotl": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 14.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 1.0,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:iron_golem": {
+        "minecraft:generic.attack_damage": 15.0,
+        "minecraft:generic.max_health": 100.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 1.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:villager": {
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.5,
+        "minecraft:generic.follow_range": 48.0
+    },
+    "minecraft:ocelot": {
+        "minecraft:generic.attack_damage": 3.0,
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:fox": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 32.0
+    },
+    "minecraft:zombie": {
+        "minecraft:generic.attack_damage": 3.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 2.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:zombie.spawn_reinforcements": 0.0,
+        "minecraft:generic.movement_speed": 0.23,
+        "minecraft:generic.follow_range": 35.0
+    },
+    "minecraft:husk": {
+        "minecraft:generic.attack_damage": 3.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 2.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:zombie.spawn_reinforcements": 0.0,
+        "minecraft:generic.movement_speed": 0.23,
+        "minecraft:generic.follow_range": 35.0
+    },
+    "minecraft:hoglin": {
+        "minecraft:generic.attack_damage": 6.0,
+        "minecraft:generic.max_health": 40.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.6,
+        "minecraft:generic.attack_knockback": 1.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:parrot": {
+        "minecraft:generic.max_health": 6.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.flying_speed": 0.4,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.2,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:cat": {
+        "minecraft:generic.attack_damage": 3.0,
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:piglin_brute": {
+        "minecraft:generic.attack_damage": 7.0,
+        "minecraft:generic.max_health": 50.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.35,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:zoglin": {
+        "minecraft:generic.attack_damage": 6.0,
+        "minecraft:generic.max_health": 40.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.6,
+        "minecraft:generic.attack_knockback": 1.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:squid": {
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:wolf": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 8.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.3,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:cow": {
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.2,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:frog": {
+        "minecraft:generic.attack_damage": 10.0,
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 1.0,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:allay": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.flying_speed": 0.1,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.1,
+        "minecraft:generic.follow_range": 48.0
+    },
+    "minecraft:evoker": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 24.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.5,
+        "minecraft:generic.follow_range": 12.0
+    },
+    "minecraft:vindicator": {
+        "minecraft:generic.attack_damage": 5.0,
+        "minecraft:generic.max_health": 24.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.35,
+        "minecraft:generic.follow_range": 12.0
+    },
+    "minecraft:glow_squid": {
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:zombie_horse": {
+        "minecraft:generic.max_health": 15.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:horse.jump_strength": 0.7,
+        "minecraft:generic.movement_speed": 0.2,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:silverfish": {
+        "minecraft:generic.attack_damage": 1.0,
+        "minecraft:generic.max_health": 8.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:witch": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 26.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.25,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:zombified_piglin": {
+        "minecraft:generic.attack_damage": 5.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 2.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:zombie.spawn_reinforcements": 0.0,
+        "minecraft:generic.movement_speed": 0.23,
+        "minecraft:generic.follow_range": 35.0
+    },
+    "minecraft:vex": {
+        "minecraft:generic.attack_damage": 4.0,
+        "minecraft:generic.max_health": 14.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:mooshroom": {
+        "minecraft:generic.max_health": 10.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.2,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:sheep": {
+        "minecraft:generic.max_health": 8.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.23,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:giant": {
+        "minecraft:generic.attack_damage": 50.0,
+        "minecraft:generic.max_health": 100.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.5,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:guardian": {
+        "minecraft:generic.attack_damage": 6.0,
+        "minecraft:generic.max_health": 30.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.5,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:wither": {
+        "minecraft:generic.attack_damage": 2.0,
+        "minecraft:generic.max_health": 300.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 4.0,
+        "minecraft:generic.flying_speed": 0.6,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.6,
+        "minecraft:generic.follow_range": 40.0
+    },
+    "minecraft:tropical_fish": {
+        "minecraft:generic.max_health": 3.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:shulker": {
+        "minecraft:generic.max_health": 30.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:tadpole": {
+        "minecraft:generic.max_health": 6.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 1.0,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:salmon": {
+        "minecraft:generic.max_health": 3.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:generic.movement_speed": 0.7,
+        "minecraft:generic.follow_range": 16.0
+    },
+    "minecraft:zombie_villager": {
+        "minecraft:generic.attack_damage": 3.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 2.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.attack_knockback": 0.0,
+        "minecraft:zombie.spawn_reinforcements": 0.0,
+        "minecraft:generic.movement_speed": 0.23,
+        "minecraft:generic.follow_range": 35.0
+    },
+    "minecraft:player": {
+        "minecraft:generic.luck": 0.0,
+        "minecraft:generic.attack_damage": 1.0,
+        "minecraft:generic.attack_speed": 4.0,
+        "minecraft:generic.max_health": 20.0,
+        "minecraft:generic.armor_toughness": 0.0,
+        "minecraft:generic.armor": 0.0,
+        "minecraft:generic.knockback_resistance": 0.0,
+        "minecraft:generic.movement_speed": 0.1
+    }
+}

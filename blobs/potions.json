@@ -1,0 +1,254 @@
+{
+    "NightVision": {
+        "displayName": "Night Vision",
+        "displayLevel": false
+    },
+    "Absorption": {
+        "displayName": "Absorption Health",
+        "displayLevel": "percent_bonus"
+    },
+    "InstantHealthPercent": {
+        "displayName": "Instant Health",
+        "displayLevel": "percent",
+        "displayDuration": false
+    },
+    "Speed": {
+        "displayName": "Speed",
+        "displayLevel": "percent_bonus"
+    },
+    "WaterBreath": {
+        "displayName": "Water Breathing",
+        "displayLevel": false
+    },
+    "Nausea": {
+        "displayName": "Nausea",
+        "displayLevel": false,
+        "isNegative": true
+    },
+    "Resistance": {
+        "displayName": "Resistance",
+        "displayLevel": "percent_bonus"
+    },
+    "MagicResistance": {
+        "displayName": "Magic Resistance",
+        "displayLevel": "percent_bonus"
+    },
+    "VanillaFireRes": {
+        "displayName": "Fire Immunity",
+        "displayLevel": false
+    },
+    "JumpBoost": {
+        "displayName": "Jump Boost"
+    },
+    "Blindness": {
+        "displayName": "Blindness",
+        "displayLevel": false,
+        "isNegative": true
+    },
+    "Regeneration": {
+        "displayName": "Regeneration"
+    },
+    "Hunger": {
+        "displayName": "Hunger",
+        "isNegative": true
+    },
+    "Poison": {
+        "displayName": "Poison",
+        "isNegative": true
+    },
+    "InstantDamagePercent": {
+        "displayName": "Instant Damage",
+        "isNegative": true,
+        "displayDuration": false,
+        "displayLevel": "percent"
+    },
+    "Wither": {
+        "isNegative": true,
+        "displayName": "Wither"
+    },
+    "Haste": {
+        "displayName": "Haste"
+    },
+    "damage": {
+        "displayName": "Strength",
+        "displayLevel": "percent_bonus"
+    },
+    "Glowing": {
+        "displayName": "Glowing",
+        "displayLevel": false
+    },
+    "Heal": {
+        "displayName": "Healing Rate",
+        "displayLevel": "percent_bonus"
+    },
+    "MaxHealthIncrease": {
+        "displayName": "Max Health",
+        "displayLevel": "percent_bonus"
+    },
+    "AbilityCooldownDecrease": {
+        "displayName": "Ability Cooldowns",
+        "displayLevel": "percent_negate"
+    },
+    "MagicDamage": {
+        "displayName": "Magic Damage",
+        "displayLevel": "percent_bonus"
+    },
+    "KnockbackResist": {
+        "displayName": "Knockback Resistance",
+        "displayLevel": "percent_bonus"
+    },
+    "NegativeKnockbackResist": {
+        "displayName": "Knockback Resistance",
+        "displayLevel": "percent_negate",
+        "isNegative": true
+    },
+    "ConduitPower": {
+        "displayName": "Conduit Power"
+    },
+    "Slow": {
+        "displayName": "Speed",
+        "displayLevel": "percent_negate"
+    },
+    "Weakness": {
+        "displayName": "Strength",
+        "displayLevel": "percent_negate"
+    },
+    "BadLuck": {
+        "displayName": "Bad Luck",
+        "isNegative": true
+    },
+    "MeleeResistance": {
+        "displayName": "Melee Resistance",
+        "displayLevel": "percent_bonus"
+    },
+    "ProjectileResistance": {
+        "displayName": "Projectile Resistance",
+        "displayLevel": "percent_bonus"
+    },
+    "BlastResistance": {
+        "displayName": "Blast Resistance",
+        "displayLevel": "percent_bonus"
+    },
+    "AttackSpeed": {
+        "displayName": "Attack Speed",
+        "displayLevel": "percent_bonus"
+    },
+    "NegativeAttackSpeed": {
+        "displayName": "Attack Speed",
+        "displayLevel": "percent_negate",
+        "isNegative": true
+    },
+    "MaxHealthDecrease": {
+        "displayName": "Max Health",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "Vulnerability": {
+        "displayName": "Resistance",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "BlastVulnerability": {
+        "displayName": "Blast Resistance",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "FireVulnerability": {
+        "displayName": "Fire Resistance",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "MagicVulnerability": {
+        "displayName": "Magic Resistance",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "MeleeVulnerability": {
+        "displayName": "Melee Resistance",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "ProjectileVulnerability": {
+        "displayName": "Projectile Resistance",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "FallVulnerability": {
+        "displayName": "Fall Resistance",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "Clucking": {
+        "displayName": "Clucking",
+        "displayLevel": false,
+        "isNegative": true,
+        "displayDuration": false
+    },
+    "MeleeDamage": {
+        "displayName": "Melee Damage",
+        "displayLevel": "percent_bonus"
+    },
+    "ProjectileDamage": {
+        "displayName": "Projectile Damage",
+        "displayLevel": "percent_bonus"
+    },
+    "AntiHeal": {
+        "displayName": "Healing Rate",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "MiningFatigue": {
+        "displayName": "Mining Fatigue",
+        "isNegative": true
+    },
+    "ExpBonus": {
+        "displayName": "Experience",
+        "displayLevel": "percent_bonus"
+    },
+    "ExpLoss": {
+        "displayName": "Experience",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "SoulThreadBonus": {
+        "displayName": "Soul Thread Chance",
+        "displayLevel": "percent_bonus"
+    },
+    "SoulThreadReduction": {
+        "displayName": "Soul Thread Chance",
+        "displayLevel": "percent_negate",
+        "isNegative": true
+    },
+    "FallResistance": {
+        "displayName": "Fall Resistance",
+        "displayLevel": "percent_bonus"
+    },
+    "AbilityCooldownIncrease": {
+        "displayName": "Ability Cooldowns",
+        "isNegative": true,
+        "displayLevel": "percent_bonus"
+    },
+    "Bleed": {
+        "displayName": "Bleed",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "DurabilityLoss": {
+        "displayName": "Durability",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    },
+    "ArrowSaving": {
+        "displayName": "Arrow Save Chance",
+        "displayLevel": "percent_bonus"
+    },
+    "DurabilitySave": {
+        "displayName": "Durability",
+        "displayLevel": "percent_bonus"
+    },
+    "MeleeWeakness": {
+        "displayName": "Melee Damage",
+        "isNegative": true,
+        "displayLevel": "percent_negate"
+    }
+}

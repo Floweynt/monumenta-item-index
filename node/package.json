@@ -1,0 +1,26 @@
+{
+    "name": "item-index-node",
+    "version": "1.0.0",
+    "description": "Monumenta Item Index server & processing",
+    "scripts": {
+        "dev-server": "npx nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec 'ts-node src/server.ts'",
+        "convert": "npx ts-node src/convert.ts",
+        "applyPatch": "npx ts-patch install && npx typia patch"
+    },
+    "author": "Flowey",
+    "license": "GPL-3.0-only",
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.11.30",
+        "nodemon": "^3.1.0",
+        "ts-node": "^10.9.2",
+        "ts-patch": "^3.1.2",
+        "tsconfig-paths": "^4.2.0",
+        "typescript": "^5.4.3"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "jsondiffpatch": "^0.5.0",
+        "typia": "^5.5.8"
+    }
+}
