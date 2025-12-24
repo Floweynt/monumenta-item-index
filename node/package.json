@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Monumenta Item Index server & processing",
     "scripts": {
-        "dev-server": "npx nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec 'ts-node src/server.ts'",
+        "dev-server": "npx nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec 'npx ts-node src/server.ts'",
         "convert": "npx ts-node src/convert.ts",
         "applyPatch": "npx ts-patch install && npx typia patch"
     },
