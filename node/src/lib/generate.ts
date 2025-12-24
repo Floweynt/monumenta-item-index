@@ -202,7 +202,7 @@ const HANDLERS: {[key: string]: TagHandler} = {
                 const isNegative = info.isNegative ?? false;
                 const displayLevel = info.displayLevel ?? true;
                 const displayDuration = info.displayDuration ?? true;
-                const parts: Component = [];
+                const parts: Component[] = [];
                 const color = isNegative ? "#D02E28" : "#40C2E5";
 
                 if (displayLevel === "percent") {
@@ -241,7 +241,10 @@ const HANDLERS: {[key: string]: TagHandler} = {
                     });
                 }
 
-                return parts;
+                return {
+                    text: "",
+                    extra: parts,
+                };
             })
         ],
         renderBegin: () => [],
@@ -261,17 +264,19 @@ const HANDLERS: {[key: string]: TagHandler} = {
     "masterwork": {
         renderBegin: (tag) => {
             const level = (tag as MasterworkTag).level;
-            return [[
-                "Masterwork : ",
-                {
-                    color: "gold",
-                    text: "★".repeat(level),
-                },
-                {
-                    color: "dark_gray",
-                    text: "☆".repeat(Math.max(4 - level, 0)),
-                }
-            ]];
+            return [{
+                text: "", extra: [
+                    "Masterwork : ",
+                    {
+                        color: "gold",
+                        text: "★".repeat(level),
+                    },
+                    {
+                        color: "dark_gray",
+                        text: "☆".repeat(Math.max(4 - level, 0)),
+                    }
+                ],
+            }];
         },
         renderEnd: () => [],
     },
@@ -357,7 +362,7 @@ export function genItem(item: Item): RenderedItem {
     lore.push(...tags.flatMap(tag => getSafe(HANDLERS, typeof tag === "string" ? tag : tag.tag).renderBegin(tag)).map(lore => applyDefaultFormatting(LORE_DEFAULT, lore)));
 
     if (rarityInfo !== undefined && regionInfo !== undefined) {
-        lore.push([
+        lore.push(
             {
                 text: regionInfo + " : ",
                 ...LORE_DEFAULT,
@@ -365,7 +370,7 @@ export function genItem(item: Item): RenderedItem {
                     rarityInfo.text
                 ],
             }
-        ]);
+        );
     }
 
     if (locationInfo !== undefined) {

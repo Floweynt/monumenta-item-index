@@ -30,7 +30,14 @@ export const componentParser = (str: string) => {
                 (obj as any)[key] = false;
         };
 
-        const object = JSON.parse(str);
+        let object = JSON.parse(str);
+
+        if(Array.isArray(object)) {
+            object = {
+                text: "",
+                extra: object,
+            };
+        }
 
         ["bold", "italic"].forEach(k => findKey(object, k, slowPath));
 

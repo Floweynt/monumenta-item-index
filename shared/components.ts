@@ -35,8 +35,7 @@ export interface TranslatedComponent extends JsonComponentBase {
 }
 
 export type JsonComponent = TextComponent | TranslatedComponent | KeybindComponent;
-export type RawComponent = string | JsonComponent;
-export type Component = RawComponent | RawComponent[];
+export type Component = string | JsonComponent;
 
 export function normalizeFormatting(format: ComponentFormatting): ComponentFormatting {
     return {
@@ -50,7 +49,7 @@ export function normalizeFormatting(format: ComponentFormatting): ComponentForma
     };
 }
 
-export function getComponentText(comp: RawComponent): string {
+export function getComponentText(comp: Component): string {
     if (typeof comp === "string") {
         return comp;
     } else {

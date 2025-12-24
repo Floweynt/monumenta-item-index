@@ -1,5 +1,5 @@
 // Warning: terrible code
-import {readFileSync, rmSync} from "fs";
+import {readFileSync, rmSync, write, writeFileSync} from "fs";
 import {mkdir, writeFile} from "fs/promises";
 import {AttributeTag, EnchantmentTag, Item, Rarity, getTagById, getTagId} from "@shared/item";
 import {walkDirSync} from "./lib/utils";
@@ -224,10 +224,6 @@ function removeExportFields(item: ExportedItem) {
     return cleanObj;
 }
 
-function filterSameEntries(o1: object, o2: object) {
-
-}
-
 async function doWrite(items: ExportedItem[], shortId: string) {
     if (items.length === 1 && getTagById(items[0].tags ?? [], "masterwork") === undefined) {
         // single item case 
@@ -273,6 +269,9 @@ if (false) {
     rmSync("data", {recursive: true, force: true, });
     rmSync("data_clean", {recursive: true, force: true, });
     const rawItems = load();
+
+    writeFileSync("blobs/out.json", JSON.stringify(rawItems));
+
     const uniqueItems = mappingUnique(rawItems, item => JSON.stringify(removeExportFields(item)));
     const itemByName = makeIdToItemsTable(uniqueItems);
 
@@ -283,33 +282,4 @@ if (false) {
 
     // construct tree structure
     itemByName.forEach(doWrite);
-
-    /*
-    console.log(
-        Object.fromEntries(
-            unique(entries
-                .flatMap(u => u.tags ?? [])
-                .filter((u): u is AttributeTag => getTag(u) === "attributes")
-                .flatMap(tag => tag.attributes)
-                .map(u => u[0])
-                .map(u => {
-                    if (u.startsWith("minecraft:")) {
-                        return [u, [u]];
-                    }
-
-                    return [`monumenta:${u.toLowerCase().replaceAll(" ", "_")}`, [u]];
-                })
-            ).sort()
-        )
-    );
-
-    console.log(
-        unique(entries
-            .flatMap(u => u.tags ?? [])
-            .filter((u): u is PotionTag => getTag(u) === "potion")
-            .flatMap(tag => tag.effects)
-            .map(u => u[2])
-            .filter(u => EFFECTS_BLOB[u as keyof typeof EFFECTS_BLOB] === undefined)
-        )
-    );*/
 }

@@ -1,5 +1,5 @@
-import {Component, ComponentFormatting, RawComponent, applyFormatting, getComponentText, mergeFormatting, normalizeFormatting} from "@shared/components";
-import {getSafe, mapPrim, merge} from "@shared/utils";
+import {Component, ComponentFormatting, getComponentText, mergeFormatting} from "@shared/components";
+import {getSafe, mapPrim} from "@shared/utils";
 import {ReactNode} from "react";
 import {RenderedItem} from "@shared/item";
 
@@ -22,7 +22,7 @@ const colorMap: {[key: string]: string} = {
     white: "#ffffff",
 };
 
-function renderJsonComponentImpl(comp: RawComponent, fmt: ComponentFormatting): ReactNode {
+function renderJsonComponentImpl(comp: Component, fmt: ComponentFormatting): ReactNode {
     fmt = typeof comp === "string" ? fmt : mergeFormatting(fmt, comp);
 
     // generate HTML tags
@@ -56,28 +56,6 @@ function renderJsonComponentImpl(comp: RawComponent, fmt: ComponentFormatting): 
 }
 
 function renderJsonComponent(comp: Component, fmt: ComponentFormatting): ReactNode {
-    if (Array.isArray(comp)) {
-        if (comp.length === 0)
-            return "";
-
-        const firstEntry = comp[0];
-        const rest = comp.slice(1);
-
-        if (typeof firstEntry === "string") {
-            return renderJsonComponentImpl(merge({text: firstEntry, extra: rest, }, normalizeFormatting(fmt)), fmt);
-        } else {
-            if (firstEntry.extra) {
-                firstEntry.extra.push(...rest);
-            } else {
-                firstEntry.extra = rest;
-            }
-
-            const newFmt = mergeFormatting(fmt, firstEntry);
-
-            return renderJsonComponentImpl(applyFormatting(firstEntry, newFmt), newFmt);
-        }
-    }
-
     fmt = typeof comp === "string" ? fmt : mergeFormatting(fmt, comp);
     return renderJsonComponentImpl(comp, fmt);
 }
